@@ -1,0 +1,9 @@
+coverage/**
+es/**
+umd/**
+site/**
+public/**
+types/global.d.ts
+*.md
+package.json
+
