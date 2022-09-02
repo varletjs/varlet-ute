@@ -81,14 +81,6 @@ module.exports = {
       },
       {
         text: {
-          'zh-CN': 'StyleProvider 样式定制',
-          'en-US': 'StyleProvider',
-        },
-        doc: 'style-provider',
-        type: 2,
-      },
-      {
-        text: {
           'zh-CN': 'Button 按钮',
           'en-US': 'Button',
         },
@@ -519,7 +511,7 @@ module.exports = {
   mobile: {
     redirect: '/home',
     title: {
-      'zh-CN': '一个组件库',
+      'zh-CN': 'varlet-ui-theme',
       'en-US': 'Components Library'
     },
     header: {
