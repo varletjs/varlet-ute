@@ -6,7 +6,7 @@ const ButtonTheme = {
   '--button-warning-color': '#ff9f00',
   '--button-info-color': '#00afef',
   '--button-disabled-color': '#e0e0e0',
-  '--button-disabled-text-color': '#aaa',
+  '--button-disabled-text-color': '#e0e0e0',
   '--button-border-radius': '4px',
   '--button-mini-padding': '0 9px',
   '--button-small-padding': '0 11px',
