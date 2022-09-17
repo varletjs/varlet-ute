@@ -62,7 +62,6 @@ module.exports = {
       'en-US': 'Components Library'
     },
     header: {
-      darkMode: null,
       versions: null,
       i18n: {
         'zh-CN': '中文',
@@ -519,7 +518,6 @@ module.exports = {
         'zh-CN': '中文',
         'en-US': 'English',
       },
-      darkMode: null,
       github: 'https://github.com/varletjs/varlet',
     },
   },

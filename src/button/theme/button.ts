@@ -1,6 +1,6 @@
 const ButtonTheme = {
   '--button-default-color': '#f5f5f5',
-  '--button-primary-color': '#3a7afe',
+  '--button-primary-color': 'var(--color-primary)',
   '--button-danger-color':  '#f44336',
   '--button-success-color': '#00c48f',
   '--button-warning-color': '#ff9f00',
