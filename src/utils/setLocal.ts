@@ -4,7 +4,7 @@
 * data 组件变化数据
 */
 
-const setLocal = (theme:string, name:string, data: any) => {
+const setLocal = (theme: string, name: string, data: any) => {
     localStorage.getItem(`${theme}-theme`) || localStorage.setItem(`${theme}-theme`, '{}')
     const _obj = JSON.parse(localStorage.getItem(`${theme}-theme`) as string)
     _obj[name] = data
