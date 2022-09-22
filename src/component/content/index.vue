@@ -25,7 +25,7 @@ const width = computed(()=> {
 const clearCurrent = () => {
   try {
     const themeColor = JSON.parse(localStorage.getItem('light-theme'))
-    delete themeColor.button
+    delete themeColor[prop.componentName]
     localStorage.setItem('light-theme', JSON.stringify(themeColor))
     Object.keys(obj).forEach((key)=> {
       _ButtonTheme[key] = obj[key]
