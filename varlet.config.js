@@ -1,17 +1,11 @@
 module.exports = {
-  name: 'Basic',
-  namespace: 'b',
-  title: 'varlet-theme',
+  title: 'VARLET UTE',
   logo: './logo.svg',
   useMobile: true,
-  highlight: {
-    style: './highlight.css',
-  },
   pc: {
-    redirect: '/home',
     title: {
-      'zh-CN': '一个组件库',
-      'en-US': 'Components Library'
+      'zh-CN': 'Varlet UI 主题编辑工具',
+      'en-US': 'Varlet UI theme editing tool'
     },
     header: {
       versions: null,
@@ -462,8 +456,8 @@ module.exports = {
   mobile: {
     redirect: '/home',
     title: {
-      'zh-CN': 'varlet-ui-theme',
-      'en-US': 'Components Library'
+      'zh-CN': 'Varlet UI 主题编辑工具',
+      'en-US': 'Varlet UI theme editing tool'
     },
     header: {
       i18n: {
@@ -472,5 +466,8 @@ module.exports = {
       },
       github: 'https://github.com/varletjs/varlet',
     },
+  },
+  highlight: {
+    style: null,
   },
 }
