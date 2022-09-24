@@ -5,14 +5,18 @@ import { watchLang } from '@varlet/cli/site/utils'
 import AppType from '@varlet/cli/site/mobile/components/AppType'
 import '@varlet/ui/es/space/style/index'
 import '@varlet/ui/es/button/style/index'
-import { reactive } from 'vue'
-
-const VarStyleProvider = StyleProvider.Component
+import { reactive, watch } from 'vue'
 
 const _ButtonTheme = reactive({value: JSON.parse(localStorage.getItem(localStorage.getItem('VARLET_THEME')))?.button || {} })
 window.addEventListener('message', res => {
-  _ButtonTheme.value = JSON.parse(localStorage.getItem(localStorage.getItem('VARLET_THEME'))).button
+  _ButtonTheme.value = JSON.parse(localStorage.getItem(localStorage.getItem('VARLET_THEME')))[res?.data]
 })
+
+watch(()=> _ButtonTheme.value, ()=> {
+  StyleProvider(_ButtonTheme.value)
+})
+
+StyleProvider(_ButtonTheme.value)
 
 const handleClick = () => {
   Snackbar.success(pack.value.clickSuccess)
@@ -34,7 +38,6 @@ watchLang(use)
 </script>
 
 <template>
-  <var-style-provider :style-vars="_ButtonTheme.value">
     <app-type>{{ pack.themeColorButton }}</app-type>
     <var-space :size="['2.666vw', '2.666vw']">
       <var-button>{{ pack.defaultButton }}</var-button>
@@ -111,5 +114,4 @@ watchLang(use)
       <var-button type="success" @touchstart="handleTouchstart">{{ pack.touchstart }}</var-button>
       <var-button type="success" @click="handleAutoLoadingClick" auto-loading>{{ pack.autoLoading }}</var-button>
     </var-space>
-  </var-style-provider>
 </template>

@@ -5,20 +5,24 @@ import AppType from '@varlet/cli/site/mobile/components/AppType'
 import '@varlet/ui/es/icon/style/index'
 import '@varlet/ui/es/cell/style/index'
 import {watchLang} from "@varlet/cli/site/utils";
-import {reactive} from "vue";
+import { reactive, watch } from "vue";
 
-const VarStyleProvider = StyleProvider.Component
-
-const _ButtonTheme = reactive({value: JSON.parse(localStorage.getItem(`light-theme`))?.cell || {} })
+const _ButtonTheme = reactive({value: JSON.parse(localStorage.getItem(localStorage.getItem('VARLET_THEME')))?.cell || {} })
 window.addEventListener('message', res => {
-  _ButtonTheme.value = JSON.parse(localStorage.getItem(`${res.data}-theme`)).cell
+  _ButtonTheme.value = JSON.parse(localStorage.getItem(localStorage.getItem('VARLET_THEME')))[res?.data]
 })
+
+watch(()=>_ButtonTheme.value, ()=> {
+  StyleProvider(_ButtonTheme.value)
+})
+
+StyleProvider(_ButtonTheme.value)
+
 
 watchLang(use)
 </script>
 
 <template>
-  <var-style-provider :style-vars="_ButtonTheme.value">
   <app-type>{{ pack.basicUsage }}</app-type>
   <var-cell> {{ pack.content }} </var-cell>
   <var-cell> {{ pack.content }} </var-cell>
@@ -46,7 +50,6 @@ watchLang(use)
   <app-type>{{ pack.showBorder }}</app-type>
   <var-cell border> {{ pack.content }} </var-cell>
   <var-cell border> {{ pack.content }} </var-cell>
-  </var-style-provider>
 </template>
 
 <style scoped>

@@ -34,7 +34,7 @@ watchDarkMode(dark, (themes)=> {
 })
 
 watch(_ButtonTheme.theme, (newVal) => {
-  window[0].postMessage(theme().theme, '*')
+  window[0].postMessage(prop.componentName, '*')
   setLocal(theme().theme, prop.componentName, DiffObj(newVal, obj))
 })
 
