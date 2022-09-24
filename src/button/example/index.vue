@@ -9,9 +9,9 @@ import { reactive } from 'vue'
 
 const VarStyleProvider = StyleProvider.Component
 
-const _ButtonTheme = reactive({value: JSON.parse(localStorage.getItem(`light-theme`))?.button || {} })
+const _ButtonTheme = reactive({value: JSON.parse(localStorage.getItem(localStorage.getItem('VARLET_THEME')))?.button || {} })
 window.addEventListener('message', res => {
-  _ButtonTheme.value = JSON.parse(localStorage.getItem(`${res.data}-theme`)).button
+  _ButtonTheme.value = JSON.parse(localStorage.getItem(localStorage.getItem('VARLET_THEME'))).button
 })
 
 const handleClick = () => {

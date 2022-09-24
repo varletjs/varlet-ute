@@ -5,10 +5,10 @@
 */
 
 const setLocal = (theme: string, name: string, data: any) => {
-    localStorage.getItem(`${theme}-theme`) || localStorage.setItem(`${theme}-theme`, '{}')
-    const _obj = JSON.parse(localStorage.getItem(`${theme}-theme`) as string)
+    localStorage.getItem(`${theme}`) || localStorage.setItem(`${theme}`, '{}')
+    const _obj = JSON.parse(localStorage.getItem(`${theme}`) as string)
     _obj[name] = data
-    localStorage.setItem(`${theme}-theme`, JSON.stringify(_obj))
+    localStorage.setItem(`${theme}`, JSON.stringify(_obj))
 }
 
 export default setLocal

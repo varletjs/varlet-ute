@@ -1,6 +1,6 @@
 export const props = {
     theme: {
-        type: String
+        type: Object
     },
     componentName: {
         type: String

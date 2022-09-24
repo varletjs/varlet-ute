@@ -1,4 +1,3 @@
-import { StyleVars } from '../../style-provider'
 import actionSheet from './actionSheet'
 import badge from './badge'
 import button from './button'
@@ -30,44 +29,101 @@ import bottomNavigation from './bottomNavigation'
 import bottomNavigationItem from './bottomNavigationItem'
 
 export default {
-  // common
-  '--color-body': '#1e1e1e',
-  '--color-text': '#fff',
-  '--color-primary': '#4a7afe',
-  '--color-info': '#10afef',
-  '--color-success': '#10c48f',
-  '--color-warning': '#ff8800',
-  '--color-danger': '#ef5350',
-  '--color-disabled': '#404040',
-  '--color-text-disabled': '#757575',
-  // component
-  ...button,
-  ...cell,
-  ...card,
-  ...timePicker,
-  ...datePicker,
-  ...skeleton,
-  ...tabs,
-  ...tab,
-  ...popup,
-  ...dialog,
-  ...actionSheet,
-  ...chip,
-  ...badge,
-  ...uploader,
-  ...collapse,
-  ...pullRefresh,
-  ...switchThemes,
-  ...steps,
-  ...pagination,
-  ...table,
-  ...input,
-  ...select,
-  ...radio,
-  ...checkbox,
-  ...divider,
-  ...picker,
-  ...appBar,
-  ...bottomNavigation,
-  ...bottomNavigationItem,
-} as StyleVars
+  // // common
+  // '--color-body': '#1e1e1e',
+  // '--color-text': '#fff',
+  // '--color-primary': '#4a7afe',
+  // '--color-info': '#10afef',
+  // '--color-success': '#10c48f',
+  // '--color-warning': '#ff8800',
+  // '--color-danger': '#ef5350',
+  // '--color-disabled': '#404040',
+  // '--color-text-disabled': '#757575',
+  button: {
+    ...button
+  },
+  cell: {
+    ...cell
+  },
+  card: {
+    ...card
+  },
+  timePicker: {
+    ...timePicker
+  },
+  datePicker: {
+    ...datePicker
+  },
+  skeleton: {
+    ...skeleton
+  },
+  tabs: {
+    ...tabs
+  },
+  tab: {
+    ...tab
+  },
+  popup: {
+    ...popup
+  },
+  dialog: {
+    ...dialog
+  },
+  actionSheet: {
+    ...actionSheet
+  },
+  chip: {
+    ...chip
+  },
+  badge: {
+    ...badge
+  },
+  uploader: {
+    ...uploader
+  },
+  collapse: {
+    ...collapse
+  },
+  pullRefresh: {
+    ...pullRefresh
+  },
+  switchThemes: {
+    ...switchThemes
+  },
+  steps: {
+    ...steps
+  },
+  pagination: {
+    ...pagination
+  },
+  table: {
+    ...table
+  },
+  input: {
+    ...input
+  },
+  select: {
+    ...select
+  },
+  radio: {
+    ...radio
+  },
+  checkbox: {
+    ...checkbox
+  },
+  divider: {
+    ...divider
+  },
+  picker: {
+    ...picker
+  },
+  appBar: {
+    ...appBar
+  },
+  bottomNavigation: {
+    ...bottomNavigation
+  },
+  bottomNavigationItem: {
+    ...bottomNavigationItem
+  }
+}
