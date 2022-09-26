@@ -1,63 +1,65 @@
-import ButtonTheme from "./button";
-import ActionSheet from "./actionSheet";
-import CellTheme from "./cell";
-import AppBar from "./appBar";
-import Backtop from "./backtop";
-import Badge from "./badge";
-import ButtonNavigation from "./buttonNavigation";
-import Card from "./card";
-import Chip from "./chip";
-import Collapse from "./collapse";
-import DatePicker from "./date-picker";
-import Dialog from "./dialog";
-import Divider from "./divider";
-import Icon from "./icon";
-import ImagePreview from "./image-preview";
-import IndexBar from "./indexBar";
-import List from "./list";
-import Loading from "./loading";
-import Pagination from "./pagination";
-import Picker from "./picker";
-import Popup from "./popup";
-import Progress from "./progress";
-import PullRefresh from "./pullRefresh";
-import Ripple from "./ripple";
-import Skeleton from "./skeleton";
-import SnackBar from "./snackBar";
-import Steps from "./steps";
-import Swipe from "./swipe";
-import Table from "./table";
-import Tabs from "./tabs";
+import button from "./button";
+import actionSheet from "./actionSheet";
+import cellTheme from "./cell";
+import appBar from "./appBar";
+import backTop from "./backtop";
+import badge from "./badge";
+import buttonNavigation from "./buttonNavigation";
+import card from "./card";
+import chip from "./chip";
+import collapse from "./collapse";
+import datePicker from "./date-picker";
+import dialog from "./dialog";
+import divider from "./divider";
+import icon from "./icon";
+import imagePreview from "./image-preview";
+import indexBar from "./indexBar";
+import list from "./list";
+import loading from "./loading";
+import pagination from "./pagination";
+import picker from "./picker";
+import popup from "./popup";
+import progress from "./progress";
+import pullRefresh from "./pullRefresh";
+import ripple from "./ripple";
+import skeleton from "./skeleton";
+import snackBar from "./snackBar";
+import steps from "./steps";
+import swipe from "./swipe";
+import table from "./table";
+import tabs from "./tabs";
+import common from './common'
 
-export {
-    ButtonTheme,
-    ActionSheet,
-    CellTheme,
-    AppBar,
-    Backtop,
-    Badge,
-    ButtonNavigation,
-    Card,
-    Chip,
-    Collapse,
-    DatePicker,
-    Dialog,
-    Divider,
-    Icon,
-    ImagePreview,
-    IndexBar,
-    List,
-    Loading,
-    Pagination,
-    Picker,
-    Popup,
-    Progress,
-    PullRefresh,
-    Ripple,
-    Skeleton,
-    SnackBar,
-    Steps,
-    Swipe,
-    Table,
-    Tabs,
+export default {
+  common,
+  button,
+  actionSheet,
+  cellTheme,
+  appBar,
+  backTop,
+  badge,
+  buttonNavigation,
+  card,
+  chip,
+  collapse,
+  datePicker,
+  dialog,
+  divider,
+  icon,
+  imagePreview,
+  indexBar,
+  list,
+  loading,
+  pagination,
+  picker,
+  popup,
+  progress,
+  pullRefresh,
+  ripple,
+  skeleton,
+  snackBar,
+  steps,
+  swipe,
+  table,
+  tabs,
 }

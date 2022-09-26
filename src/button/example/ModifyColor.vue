@@ -1,16 +1,11 @@
 <script setup>
 import { watchLang } from '@varlet/cli/site/utils'
 import { use } from './locale'
-import {ButtonTheme} from '../../theme/light/index'
-import Content from '../../component/content/index'
+import Editor from '../../../components/editor/index.vue'
 
 watchLang(use, 'pc')
 </script>
 
 <template>
-  <Content :theme="ButtonTheme" component-name="button" />
+  <editor component-name="button" />
 </template>
-
-<style>
-
-</style>
