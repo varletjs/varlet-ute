@@ -1,11 +1,11 @@
 <script setup>
+import AppType from '@varlet/cli/site/mobile/components/AppType'
 import { Button as VarButton, Space as VarSpace, Snackbar, Icon as VarIcon } from '@varlet/ui'
 import { pack, use } from './locale'
 import { watchLang } from '@varlet/cli/site/utils'
-import AppType from '@varlet/cli/site/mobile/components/AppType'
 import '@varlet/ui/es/space/style/index'
 import '@varlet/ui/es/button/style/index'
-import { useSync } from '../../utils/sync';
+import { useSync } from '../../utils/sync'
 
 const handleClick = () => {
   Snackbar.success(pack.value.clickSuccess)
