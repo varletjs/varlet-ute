@@ -4,7 +4,7 @@ import { pack, use } from './locale/index'
 import AppType from '@varlet/cli/site/mobile/components/AppType'
 import '@varlet/ui/es/icon/style/index'
 import '@varlet/ui/es/cell/style/index'
-import {watchLang} from "@varlet/cli/site/utils";
+import { watchLang } from '@varlet/cli/site/utils'
 import { useSync } from '../../utils/sync'
 
 watchLang(use)
@@ -41,6 +41,4 @@ useSync()
   <var-cell border> {{ pack.content }} </var-cell>
 </template>
 
-<style scoped>
-
-</style>
+<style scoped></style>

@@ -80,19 +80,19 @@ useSync()
   <app-type>{{ pack.roundButton }}</app-type>
   <var-space :size="['2.666vw', '2.666vw']">
     <var-button type="primary" round>
-      <var-icon name="plus"/>
+      <var-icon name="plus" />
     </var-button>
     <var-button type="info" round>
-      <var-icon name="information"/>
+      <var-icon name="information" />
     </var-button>
     <var-button type="success" round>
-      <var-icon name="check"/>
+      <var-icon name="check" />
     </var-button>
     <var-button type="warning" round>
-      <var-icon name="warning"/>
+      <var-icon name="warning" />
     </var-button>
     <var-button type="danger" round>
-      <var-icon name="window-close"/>
+      <var-icon name="window-close" />
     </var-button>
   </var-space>
 

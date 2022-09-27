@@ -1,6 +1,6 @@
 <script setup>
 import { watchLang } from '@varlet/cli/site/utils'
-import { use } from "./locale";
+import { use } from './locale'
 import Editor from '../../../components/editor/index.vue'
 
 watchLang(use, 'pc')
@@ -10,6 +10,4 @@ watchLang(use, 'pc')
   <editor component-name="cell" />
 </template>
 
-<style>
-
-</style>
+<style></style>

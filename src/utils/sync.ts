@@ -1,6 +1,6 @@
-import { StyleProvider } from "@varlet/ui";
-import { onUnmounted } from "vue";
-import { flatObject } from "./shared";
+import { StyleProvider } from '@varlet/ui'
+import { onUnmounted } from 'vue'
+import { flatObject } from './shared'
 
 export function useSync() {
   function handleMessage(event: MessageEvent) {

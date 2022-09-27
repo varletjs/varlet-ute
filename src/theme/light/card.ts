@@ -1,6 +1,6 @@
 const CardTheme = {
   '--card-padding': '0px 0 15px 0',
-  '--card-background':'#fff',
+  '--card-background': '#fff',
   '--card-border-radius': '4px',
   '--card-image-width': '100%',
   '--card-row-image-width': '140px',
@@ -21,7 +21,7 @@ const CardTheme = {
   '--card-description-margin': '20px 0 0 0',
   '--card-description-padding': '0 13px',
   '--card-footer-padding': '0 12px',
- ' --card-footer-right': '30px 0 0px 0',
+  ' --card-footer-right': '30px 0 0px 0',
   '--card-footer-bottom': '13px',
   '--card-footer-margin': '9px',
   '--card-line-height': '22px',

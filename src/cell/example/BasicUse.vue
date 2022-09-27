@@ -1,5 +1,5 @@
 <script setup>
-import { VarIcon, AppType, dark  } from '@varlet/ui'
+import { VarIcon, AppType, dark } from '@varlet/ui'
 import { pack, use } from './locale'
 import { watchLang, watchDarkMode } from '@varlet/cli/site/utils'
 

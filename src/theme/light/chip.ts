@@ -19,7 +19,6 @@ const ChipTheme = {
   '--chip-text-normal-margin': '0 5px',
   '--chip-text-small-margin': '0 3px',
   '--chip-text-mini-margin': '0 2px',
-
 }
 
 export default ChipTheme

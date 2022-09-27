@@ -1,10 +1,7 @@
-<script lang='ts' setup>
+<script lang="ts" setup>
 import { computed, defineProps, onUnmounted, Ref, ref, watch } from 'vue'
 import { watchTheme } from '@varlet/cli/site/utils'
-import {
-  Input as VarInput,
-  StyleProvider
-} from '@varlet/ui'
+import { Input as VarInput, StyleProvider } from '@varlet/ui'
 import '@varlet/ui/es/input/style/index'
 import '@varlet/ui/es/bottom-navigation/style/index'
 import '@varlet/ui/es/bottom-navigation-item/style/index'
@@ -15,13 +12,13 @@ import { flatObject } from '../../src/utils/shared'
 const props = defineProps({
   componentName: {
     type: String,
-    required: true
-  }
+    required: true,
+  },
 })
 
 type Theme = 'lightTheme' | 'darkTheme'
 
-const currentTheme: Ref<Theme> = ref(localStorage.getItem('VARLET_THEME') as Theme ?? 'lightTheme')
+const currentTheme: Ref<Theme> = ref((localStorage.getItem('VARLET_THEME') as Theme) ?? 'lightTheme')
 const model = ref(getModel())
 
 function getPatch(): any {
@@ -91,23 +88,17 @@ onUnmounted(() => {
 })
 
 const editorItems = computed(() => Object.keys(model.value))
-
 </script>
 
 <template>
-  <div class='editor' ref='body'>
-    <div v-for='key in editorItems' :key='key'>
-      <var-input
-        class='editor__input'
-        :placeholder='key'
-        v-model='model[key]'
-      >
-      </var-input>
+  <div class="editor" ref="body">
+    <div v-for="key in editorItems" :key="key">
+      <var-input class="editor__input" :placeholder="key" v-model="model[key]"> </var-input>
     </div>
   </div>
 </template>
 
-<style lang='less' scoped>
+<style lang="less" scoped>
 .editor {
   padding: 24px;
   position: relative;

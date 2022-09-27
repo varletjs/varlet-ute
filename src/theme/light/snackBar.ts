@@ -1,5 +1,5 @@
 const snackBarTheme = {
- '--snackbar-width': '256px',
+  '--snackbar-width': '256px',
   '--snackbar-color': 'rgba(255, 255, 255, .87)',
   '--snackbar-border-radius': '4px',
   '--snackbar-background': '#333',

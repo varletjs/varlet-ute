@@ -5,7 +5,7 @@ module.exports = {
   pc: {
     title: {
       'zh-CN': 'Varlet UI 主题编辑工具',
-      'en-US': 'Varlet UI theme editing tool'
+      'en-US': 'Varlet UI theme editing tool',
     },
     header: {
       versions: null,
@@ -457,7 +457,7 @@ module.exports = {
     redirect: '/home',
     title: {
       'zh-CN': 'Varlet UI 主题编辑工具',
-      'en-US': 'Varlet UI theme editing tool'
+      'en-US': 'Varlet UI theme editing tool',
     },
     header: {
       i18n: {

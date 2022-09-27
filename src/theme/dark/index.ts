@@ -59,5 +59,5 @@ export default {
   picker,
   appBar,
   bottomNavigation,
-  bottomNavigationItem
+  bottomNavigationItem,
 } as Record<string, any>

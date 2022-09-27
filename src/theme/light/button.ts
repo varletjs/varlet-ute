@@ -1,7 +1,7 @@
 const ButtonTheme = {
   '--button-default-color': '#f5f5f5',
   '--button-primary-color': 'var(--color-primary)',
-  '--button-danger-color':  'var(--color-danger)',
+  '--button-danger-color': 'var(--color-danger)',
   '--button-success-color': 'var(--color-success)',
   '--button-warning-color': 'var(--color-warning)',
   '--button-info-color': 'var(--color-info)',

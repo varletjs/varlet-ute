@@ -19,5 +19,5 @@ export default {
   '--cubic-bezier': 'cubic-bezier(0.25, 0.8, 0.5, 1)',
   '--shadow-key-umbra-opacity': 'rgba(0, 0, 0, 0.2)',
   '--shadow-key-penumbra-opacity': 'rgba(0, 0, 0, 0.14)',
-  '--shadow-key-ambient-opacity': 'rgba(0, 0, 0, 0.12)'
+  '--shadow-key-ambient-opacity': 'rgba(0, 0, 0, 0.12)',
 }

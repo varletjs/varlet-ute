@@ -13,4 +13,4 @@ const InputTheme = {
   '--input-disabled-color': 'var(--color-text-disabled)',
 }
 
-export default  InputTheme
+export default InputTheme
