@@ -9,5 +9,3 @@ watchLang(use, 'pc')
 <template>
   <editor component-name="cell" />
 </template>
-
-<style></style>

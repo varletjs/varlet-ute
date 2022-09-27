@@ -1,4 +1,4 @@
-# 单元格
+# Cell
 
 ```vue
 import Editor from '../example/Editor'
