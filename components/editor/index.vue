@@ -1,9 +1,7 @@
 <script lang='ts' setup>
-import { computed, defineProps, onUnmounted, reactive, Ref, ref, watch } from 'vue'
+import { computed, defineProps, onUnmounted, Ref, ref, watch } from 'vue'
 import { watchTheme } from '@varlet/cli/site/utils'
 import {
-  BottomNavigation as VarBottomNavigation,
-  BottomNavigationItem as VarBottomNavigationItem,
   Input as VarInput,
   StyleProvider
 } from '@varlet/ui'
@@ -94,30 +92,6 @@ onUnmounted(() => {
 
 const editorItems = computed(() => Object.keys(model.value))
 
-const clear = () => {
-  const { patch } = getPatch()
-
-  if (currentTheme.value === 'lightTheme') {
-    Reflect.deleteProperty(patch, props.componentName)
-  } else {
-    patch[props.componentName] = presetDarkTheme[props.componentName]
-  }
-
-  localStorage.setItem(currentTheme.value, JSON.stringify(patch))
-
-  model.value = getModel()
-}
-
-const clearAll = () => {
-  localStorage.setItem(currentTheme.value, currentTheme.value === 'lightTheme' ? '{}' : JSON.stringify(presetDarkTheme))
-
-  model.value = getModel()
-}
-
-const exportPatch = () => {
-  const { patch } = getPatch()
-  console.log(flatObject(patch))
-}
 </script>
 
 <template>
@@ -130,17 +104,6 @@ const exportPatch = () => {
       >
       </var-input>
     </div>
-
-    <var-bottom-navigation
-      class='bottom-navigation-example'
-    >
-      <template #fab>
-        <var-bottom-navigation-item label='导出' icon='heart' @click='exportPatch' />
-      </template>
-      <var-bottom-navigation-item label='重制当前属性' icon='home' @click='clear' />
-      <var-bottom-navigation-item style='display: none' />
-      <var-bottom-navigation-item label='重制所有属性' icon='home' @click='clearAll' />
-    </var-bottom-navigation>
   </div>
 </template>
 
