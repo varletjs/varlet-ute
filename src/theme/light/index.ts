@@ -28,6 +28,12 @@ import steps from "./steps";
 import swipe from "./swipe";
 import table from "./table";
 import tabs from "./tabs";
+import checkbox from "./checkbox";
+import counter from "./counter";
+import form from './form';
+import input from "./input";
+import radio from "./radio";
+import select from "./select";
 import common from './common'
 
 export default {
@@ -62,4 +68,10 @@ export default {
   swipe,
   table,
   tabs,
+  checkbox,
+  counter,
+  form,
+  input,
+  radio,
+  select,
 }
