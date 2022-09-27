@@ -10,8 +10,6 @@ Varlet UTE 是一个基于 `VARLET` 开发的主题编辑工具,由社区建立�
 - 🛠️ &nbsp; 支持暗黑模式
 
 ### 安装
-
-### Webpack / Vite
 ```shell
 # 通过 pnpm 安装
 
@@ -20,9 +18,6 @@ pnpm
 ```
 
 ### 启动
-
-
-### Webpack / Vite
 ```shell
 # 通过 pnpm 启动
 
@@ -38,5 +33,4 @@ pnpm dev
 主题编辑工具基于 `MIT` 协议。
 
 ### 特别鸣谢
-
 特别鸣谢 `haoziqaq` 对主题编辑工具的大力支持
