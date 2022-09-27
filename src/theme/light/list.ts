@@ -5,9 +5,9 @@ const ListTheme = {
   '--list-loading-color': '#888',
   '--list-finished-color': '#888',
   '--list-error-color': '#888',
-  '--list-loading-font-size': '3.733333vw',
-  '--list-finished-font-size': '3.733333vw',
-  '--list-error-font-size': '3.733333vw',
+  '--list-loading-font-size': 'var(--font-size-md)',
+  '--list-finished-font-size': 'var(--font-size-md)',
+  '--list-error-font-size': 'var(--font-size-md)',
 }
 
 export default ListTheme

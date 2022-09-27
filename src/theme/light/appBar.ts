@@ -1,5 +1,5 @@
 const appBarTheme = {
-  '--app-bar-color': '#3a7afe',
+  '--app-bar-color': 'var(--color-primary)',
   '--app-bar-title-padding': '0 12px',
   '--app-bar-text-color': '#fff',
   '--app-bar-height': '54px',

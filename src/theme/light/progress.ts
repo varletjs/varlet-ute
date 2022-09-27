@@ -1,8 +1,8 @@
 const ProgressTheme = {
-  '--progress-font-size': '3.2vw',
+  '--progress-font-size': 'var(--font-size-sm)',
   '--progress-ripple-color': '#fff',
   '--progress-track-color': '#d8d8d8',
-  '--progress-background': '#3a7afe',
+  '--progress-background': 'var(--color-primary)',
 }
 
 export default ProgressTheme

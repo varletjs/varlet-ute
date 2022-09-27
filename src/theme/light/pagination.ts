@@ -1,7 +1,7 @@
 const PopupTheme = {
-  '--pagination-font-size': '3.733333vw',
+  '--pagination-font-size': 'var(--font-size-md)',
   '--pagination-active-color': '#fff',
-  '--pagination-active-bg-color': '#3a7afe',
+  '--pagination-active-bg-color': 'var(--color-primary)',
   '--pagination-hover-bg-color': '#edf5ff',
   '--pagination-total-margin': '0 3.2vw',
   '--pagination-total-line-height': '6.4vw',
@@ -12,11 +12,11 @@ const PopupTheme = {
   '--pagination-item-border-radius': '1.066667vw',
   '--pagination-list-bg-color': '#fff',
   '--pagination-list-active-bg-color': '#edf5ff',
-  '--pagination-list-active-color': '#3a7afe',
+  '--pagination-list-active-color': 'var(--color-primary)',
   '--pagination-input-width': '8.533333vw',
   '--pagination-simple-padding': '0 0 .533333vw 0',
-  '--pagination-disabled-color': '#aaa',
-  '--pagination-bg-disabled-color': '#e0e0e0',
+  '--pagination-disabled-color': 'var(--color-text-disabled)',
+  '--pagination-bg-disabled-color': 'var(--color-disabled)',
   '--pagination-size-line-height': '6.4vw',
 }
 export default PopupTheme

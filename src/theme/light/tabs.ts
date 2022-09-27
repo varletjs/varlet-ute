@@ -4,13 +4,13 @@ const TabsTheme = {
   '--tabs-radius': '2px',
   '--tabs-padding': '12px',
   '--tabs-indicator-size': '2px',
- ' --tabs-indicator-background': '#3a7afe',
+ ' --tabs-indicator-background': 'var(--color-primary)',
   '--tabs-background': '#fff',
   '--tab-padding': '12px',
-  '--tab-active-color': '#3a7afe',
+  '--tab-active-color': 'var(--color-primary)',
   '--tab-inactive-color': '#646566',
-  '--tab-disabled-color': '#aaa',
-  '--tab-font-size': '3.733333vw',
+  '--tab-disabled-color': 'var(--color-text-disabled)',
+  '--tab-font-size': 'var(--font-size-md)',
 }
 
 export default TabsTheme

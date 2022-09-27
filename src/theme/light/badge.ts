@@ -1,11 +1,11 @@
 const BadgeTheme = {
   '--badge-content-padding': '2px 6px',
   '--badge-default-color': '#e0e0e0',
-  '--badge-primary-color': '#3a7afe',
-  '--badge-danger-color': 'f44336',
-  '--badge-success-color': '#00c48f',
-  '--badge-warning-color': '#ff9f00',
-  '--badge-info-color': '#00afef',
+  '--badge-primary-color': 'var(--color-primary)',
+  '--badge-danger-color': 'var(--color-danger)',
+  '--badge-success-color': 'var(--color-success)',
+  '--badge-warning-color': 'var(--color-warning)',
+  '--badge-info-color': 'var(--color-info)',
 }
 
 export default BadgeTheme

@@ -5,12 +5,12 @@ const DialogTheme = {
   '--dialog-message-color': '#888',
   '--dialog-message-padding': '12px 20px',
   '--dialog-message-line-height': '24px',
-  '--dialog-message-font-size': '5.333333vw',
-  '--dialog-title-font-size': '4.266667vw',
+  '--dialog-message-font-size': 'var(--font-size-md)',
+  '--dialog-title-font-size': 'var(--font-size-lg)',
   '--dialog-actions-padding': '0 12px 12px',
   '--dialog-button-margin-left': '6px',
-  '--dialog-confirm-button-color': '#3a7afe',
-  '--dialog-cancel-button-color': '#3a7afe',
+  '--dialog-confirm-button-color': 'var(--color-primary)',
+  '--dialog-cancel-button-color': 'var(--color-primary)',
   '--dialog-background': '#fff',
 }
 

@@ -1,7 +1,7 @@
 const CellTheme = {
-  '--cell-color': '#333',
-  '--cell-font-size': '3.733333vw',
-  '--cell-desc-font-size': '3.2vw',
+  '--cell-color': 'var(--color-text)',
+  '--cell-font-size': 'var(--font-size-md)',
+  '--cell-desc-font-size': 'var(--font-size-sm)',
   '--cell-desc-color': 'rgba(0, 0, 0, 0.6)',
   '--cell-padding': '10px 12px',
   '--cell-min-height': '40px',
