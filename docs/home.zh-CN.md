@@ -1,36 +1,42 @@
 ### 介绍
 
-Varlet 是一个基于 `Vue3` 开发的 Material 风格移动端组件库，全面拥抱 `Vue3` 生态，由社区的小伙伴开发和维护。
+Varlet UTE 是一个基于 `VARLET` 开发的主题编辑工具,由社区建立起来的主题团队进行维护。
 
 ### 特性
-
-- 🚀 &nbsp; 提供 50 个高质量通用组件
-- 🚀 &nbsp; 组件十分轻量
+- 🚀 &nbsp; 提供40+个高质量通用组件主题切换
+- 🚀 &nbsp; 简单配置导出主题包
 - 💪 &nbsp; 由国人开发，完善的中英文文档和后勤保障
-- 🛠️ &nbsp; 支持按需引入
 - 🛠️ &nbsp; 支持主题定制
-- 🌍 &nbsp; 支持国际化
-- 💡 &nbsp; 支持 webstorm，vscode 组件属性高亮
-- 💪 &nbsp; 支持 SSR
-- 💡 &nbsp; 支持 Typescript
-- 💪 &nbsp; 确保 90% 以上单元测试覆盖率，提供稳定性保证
 - 🛠️ &nbsp; 支持暗黑模式
 
+### 安装
+
+### Webpack / Vite
+```shell
+# 通过 pnpm 安装
+
+# pnpm
+pnpm
+```
+
+### 启动
+
+
+### Webpack / Vite
+```shell
+# 通过 pnpm 启动
+
+# pnpm dev
+pnpm dev
+```
+
 ### PR & Issue
-使用过程中出现的问题可以到 [github](https://github.com/varletjs/varlet) 来给我们提 [issue](https://github.com/varletjs/varlet/issues)，
-我们会在第一时间处理问题。也可以给我们提 [PR](https://github.com/varletjs/varlet/pulls)，十分欢迎小伙伴们来找茬。
+使用过程中出现的问题可以到 [github](https://github.com/sdhushu/varlet-ute) 来给我们提 [issue](https://github.com/sdhushu/varlet-ute/issues)，
+我们会在第一时间处理问题。也可以给我们提 [PR](https://github.com/sdhushu/varlet-ute/pulls)，十分欢迎小伙伴们来找茬。
 
 ### 开源协议
-组件库基于 `MIT` 协议。
-
-### Material 风格介绍
-Material Design，中文名：材料设计语言，是由 Google 推出的全新的设计语言，这种设计语言旨在为手机、平板电脑、台式机和“其他平台”提供更一致、更广泛的“外观和感觉”。
-
-### 为什么选择 Material
-在早期的移动端设备中，大色块以及强烈对比色，对显示设备要求很高，同时非线性动画和水波纹对 GPU 有一定要求。
-导致 Material 风格并没有在移动端浏览器环境下有很好的体验，更多选择更扁平朴素的风格投入产品。
-但随着现代设备和新的 js 框架运行时处理的效率的逐步提升，浏览器有了更多的空闲时间和能力去处理动画效果，Material Design 将会给应用带来更好的体验。
+主题编辑工具基于 `MIT` 协议。
 
 ### 特别鸣谢
 
-特别鸣谢 `于铁柱同学-eddieyc@163.com` 对于我们组件库文档站点的视觉支持，从而帮助我们不断进化。
+特别鸣谢 `haoziqaq` 对主题编辑工具的大力支持
