@@ -1,7 +1,7 @@
 {
-  "name": "basic-ui",
-  "version": "0.0.0",
-  "description": "A basic components library",
+  "name": "varlet-ute",
+  "version": "0.0.1",
+  "description": "Varlet UI theme editing tool",
   "main": "lib/index.js",
   "module": "es/index.js",
   "typings": "types/index.d.ts",

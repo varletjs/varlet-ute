@@ -1,6 +1,6 @@
 import button from "./button";
 import actionSheet from "./actionSheet";
-import cellTheme from "./cell";
+import cell from "./cell";
 import appBar from "./appBar";
 import backTop from "./backtop";
 import badge from "./badge";
@@ -34,7 +34,7 @@ export default {
   common,
   button,
   actionSheet,
-  cellTheme,
+  cell,
   appBar,
   backTop,
   badge,

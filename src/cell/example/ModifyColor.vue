@@ -1,14 +1,13 @@
 <script setup>
 import { watchLang } from '@varlet/cli/site/utils'
-import {use} from "./locale";
-import { CellTheme } from '../../theme/light/index'
-import Content from '../../component/content/index'
+import { use } from "./locale";
+import Editor from '../../../components/editor/index.vue'
 
 watchLang(use, 'pc')
 </script>
 
 <template>
-  <Content :theme="CellTheme" component-name="cell" />
+  <editor component-name="cell" />
 </template>
 
 <style>
