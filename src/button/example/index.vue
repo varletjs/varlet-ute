@@ -21,7 +21,7 @@ const handleAutoLoadingClick = () => {
   })
 }
 
-const a = 123
+const a = 1123
 
 watchLang(use)
 useSync()
