@@ -1,15 +1,15 @@
 <script setup>
 import AppType from '@varlet/cli/site/mobile/components/AppType'
-import { reactive,ref,onMounted } from 'vue';
-import { Icon as VarIcon, Snackbar as VarSnackbar} from '@varlet/ui'
-import dark from '../../theme/dark'
+import { reactive, ref, onMounted } from 'vue'
+import { Icon as VarIcon, Snackbar as VarSnackbar } from '@varlet/ui'
+import dark from '../../../theme/dark'
 import icons from '@varlet/icons'
 import Clipboard from 'clipboard'
 import '@varlet/ui/es/icon/style/index'
 import '@varlet/ui/es/snackbar/style/index'
 import { use, pack } from './locale'
-import { watchLang,watchDarkMode } from '@varlet/cli/site/utils'
-  
+import { watchLang, watchDarkMode } from '@varlet/cli/site/utils'
+
 const iconNames = reactive(icons)
 const iconName = ref('information')
 const background = ref('#fff')
@@ -81,48 +81,48 @@ watchDarkMode(dark, (themes) => {
 </template>
 
 <style lang="less" scoped>
-  @import '@varlet/ui/es/styles/var';
-  @import '@varlet/ui/es/styles/elevation';
-  
-  .icon-example {
-    &__animation {
-      display: flex;
-      align-items: center;
-      padding-left: 8px;
-    }
-  
-    &__animation-icon {
-      margin-left: 5px;
-    }
-  
-    &__icons {
-      width: 100%;
-      display: flex;
-      flex-wrap: wrap;
-    }
-  
-    &__icon {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      width: 29%;
-      padding: 6% 5%;
-      margin: 0 2% 4%;
-      cursor: pointer;
-      -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-      user-select: none;
-      border-bottom: 2px solid var(--color-primary);
-      transition: background-color 0.25s;
-    }
-  
-    &__icon-name {
-      width: 100%;
-      font-size: 12px;
-      text-align: center;
-      overflow: hidden;
-      text-overflow: ellipsis;
-      white-space: nowrap;
-      margin-top: 8px;
-    }
+@import '@varlet/ui/es/styles/var';
+@import '@varlet/ui/es/styles/elevation';
+
+.icon-example {
+  &__animation {
+    display: flex;
+    align-items: center;
+    padding-left: 8px;
   }
-  </style>
+
+  &__animation-icon {
+    margin-left: 5px;
+  }
+
+  &__icons {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  &__icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 29%;
+    padding: 6% 5%;
+    margin: 0 2% 4%;
+    cursor: pointer;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    user-select: none;
+    border-bottom: 2px solid var(--color-primary);
+    transition: background-color 0.25s;
+  }
+
+  &__icon-name {
+    width: 100%;
+    font-size: 12px;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-top: 8px;
+  }
+}
+</style>

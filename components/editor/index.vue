@@ -5,8 +5,8 @@ import { Input as VarInput, StyleProvider } from '@varlet/ui'
 import '@varlet/ui/es/input/style/index'
 import '@varlet/ui/es/bottom-navigation/style/index'
 import '@varlet/ui/es/bottom-navigation-item/style/index'
-import presetLightTheme from '../../src/theme/light'
-import presetDarkTheme from '../../src/theme/dark'
+import presetLightTheme from '../../theme/light'
+import presetDarkTheme from '../../theme/dark'
 import { flatObject } from '../../src/utils/shared'
 
 const props = defineProps({
