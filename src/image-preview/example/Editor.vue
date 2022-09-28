@@ -7,6 +7,6 @@ watchLang(use, 'pc')
 </script>
 
 <template>
-  <editor component-name="icon" />
+  <editor component-name="imagePreview" />
 </template>
-  
+    
