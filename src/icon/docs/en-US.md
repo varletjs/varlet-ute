@@ -16,7 +16,7 @@ Font icons are from [Material Design Icon](https://materialdesignicons.com/).
 
 
 ```vue
-import ModifyColor from '../example/ModifyColor'
+import ModifyColor from '../example/Editor'
 ```
 
 ## API
