@@ -14,14 +14,6 @@ Font icons are from [Material Design Icon](https://materialdesignicons.com/).
 </template>
 ```
 
-### Icon Color
-
-```html
-<template>
-  <var-icon name="checkbox-marked-circle" color="#2979ff" />
-  <var-icon name="checkbox-marked-circle" color="#2979ff" :size="26"/>
-</template>
-```
 
 ```vue
 import ModifyColor from '../example/ModifyColor'

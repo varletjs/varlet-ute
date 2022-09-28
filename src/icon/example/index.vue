@@ -8,7 +8,8 @@ import Clipboard from 'clipboard'
 import '@varlet/ui/es/icon/style/index'
 import '@varlet/ui/es/snackbar/style/index'
 import { use, pack } from './locale'
-import { watchLang, watchDarkMode } from '@varlet/cli/site/utils'
+import { watchLang,watchDarkMode } from '@varlet/cli/site/utils'
+import { useSync } from '../../utils/sync'
 
 const iconNames = reactive(icons)
 const iconName = ref('information')
@@ -28,10 +29,11 @@ onMounted(() => {
   })
 })
 
-watchLang(use)
 watchDarkMode(dark, (themes) => {
   background.value = themes === 'darkThemes' ? '#303030' : '#fff'
 })
+watchLang(use)
+useSync()
 </script>
 
 <template>
