@@ -8,7 +8,7 @@ import Clipboard from 'clipboard'
 import '@varlet/ui/es/icon/style/index'
 import '@varlet/ui/es/snackbar/style/index'
 import { use, pack } from './locale'
-import { watchLang,watchDarkMode } from '@varlet/cli/site/utils'
+import { watchLang, watchDarkMode } from '@varlet/cli/site/utils'
 import { useSync } from '../../utils/sync'
 
 const iconNames = reactive(icons)
@@ -83,9 +83,6 @@ useSync()
 </template>
 
 <style lang="less" scoped>
-@import '@varlet/ui/es/styles/var';
-@import '@varlet/ui/es/styles/elevation';
-
 .icon-example {
   &__animation {
     display: flex;
