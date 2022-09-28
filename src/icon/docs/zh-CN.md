@@ -15,7 +15,7 @@
 ```
 
 ```vue
-import ModifyColor from '../example/Editor'
+import Editor from '../example/Editor'
 ```
 
 
