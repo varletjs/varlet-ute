@@ -1,5 +1,5 @@
 <script setup>
-import { ImagePreview, Button as VarButton, ActionSheet,Snackbar,Icon as VarIcon } from '@varlet/ui'
+import { ImagePreview, Button as VarButton, ActionSheet, Snackbar, Icon as VarIcon } from '@varlet/ui'
 import '@varlet/ui/es/icon/style/index'
 import '@varlet/ui/es/image-preview/style/index'
 import '@varlet/ui/es/button/style/index'
@@ -20,8 +20,8 @@ const closeShow = ref(false)
 const closeEventShow = ref(false)
 const extraSlotsShow = ref(false)
 const menuShow = ref(false)
-const images = ref(['https://varlet-varletjs.vercel.app/cat.jpg', 'https://varlet-varletjs.vercel.app/cat2.jpg'])
-const image = ref(['https://varlet-varletjs.vercel.app/cat.jpg'])
+const images = ref(['https://varlet.gitee.io/varlet-ui/cat.jpg', 'https://varlet.gitee.io/varlet-ui/cat2.jpg'])
+const image = ref(['https://varlet.gitee.io/varlet-ui/cat.jpg'])
 const actions = computed(() => [
   {
     name: pack.value.operate,
