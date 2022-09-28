@@ -1,7 +1,7 @@
 <script setup>
 import AppType from '@varlet/cli/site/mobile/components/AppType'
 import { reactive, ref, onMounted } from 'vue'
-import { Icon as VarIcon, Snackbar as VarSnackbar } from '@varlet/ui'
+import { Icon as VarIcon, Snackbar } from '@varlet/ui'
 import dark from '../../../theme/dark'
 import icons from '@varlet/icons'
 import Clipboard from 'clipboard'
@@ -25,7 +25,7 @@ onMounted(() => {
   })
 
   clipboard.on('success', (e) => {
-    VarSnackbar.success(`${e.text}${pack.value.copySuccess}!`)
+    Snackbar.success(`${e.text}${pack.value.copySuccess}!`)
   })
 })
 
@@ -46,7 +46,7 @@ useSync()
   <var-icon class="icon-example__animation-icon" name="checkbox-marked-circle" color="#2979ff" :size="26" />
 
   <app-type>{{ pack.useImage }}</app-type>
-  <var-icon class="icon-example__animation-icon" name="https://varlet-varletjs.vercel.app/cat.jpg" :size="32" />
+  <var-icon class="icon-example__animation-icon" name="https://varlet.gitee.io/varlet-ui/cat.jpg" :size="32" />
 
   <app-type>{{ pack.events }}</app-type>
   <var-icon
