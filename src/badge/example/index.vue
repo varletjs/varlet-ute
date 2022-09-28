@@ -1,0 +1,93 @@
+<script setup>
+import AppType from '@varlet/cli/site/mobile/components/AppType'
+import { Chip as VarChip, Button as VarButton, Space as VarSpace, Badge as VarBadge } from '@varlet/ui'
+import '@varlet/ui/es/button/style/index'
+import '@varlet/ui/es/chip/style/index'
+import '@varlet/ui/es/space/style/index'
+import '@varlet/ui/es/badge/style/index'
+import dark from '../../../theme/dark'
+import { ref } from 'vue'
+import { pack, use } from './locale'
+import { watchLang, watchDarkMode } from '@varlet/cli/site/utils'
+import { useSync } from '../../utils/sync'
+
+const value = ref(88)
+const value1 = ref(188)
+const maxValue = ref(99)
+const hidden = ref(false)
+
+const handleChange = () => {
+  hidden.value = !hidden.value
+}
+
+watchLang(use)
+watchDarkMode(dark)
+useSync()
+</script>
+
+<template>
+  <div class="example">
+    <app-type>{{ pack.themeColorBadge }}</app-type>
+    <var-space :size="['2.666vw', '4vw']">
+      <var-badge />
+      <var-badge type="primary" />
+      <var-badge type="info" />
+      <var-badge type="warning" />
+      <var-badge type="success" />
+      <var-badge type="danger" />
+    </var-space>
+
+    <app-type>{{ pack.dotBadge }}</app-type>
+    <var-badge dot type="danger" />
+
+    <app-type>{{ pack.customContentBadge }}</app-type>
+    <var-space :size="['2.666vw', '4vw']">
+      <var-badge type="danger" value="badge" />
+      <var-badge type="danger" value="hot" />
+      <var-badge type="danger" value="66" />
+    </var-space>
+
+    <app-type>{{ pack.maximum }}</app-type>
+    <var-space :size="['2.666vw', '4vw']">
+      <var-badge type="danger" :value="value" :max-value="maxValue" />
+      <var-badge type="danger" :value="value1" :max-value="maxValue" />
+    </var-space>
+
+    <app-type>{{ pack.differentPositioningBadges }}</app-type>
+    <var-space :size="['2.666vw', '6vw']">
+      <var-badge type="danger" position="right-top">
+        <var-chip plain :round="false" color="#009688">{{ pack.upperRight }}</var-chip>
+      </var-badge>
+      <var-badge type="danger" position="right-bottom">
+        <var-chip plain :round="false" color="#009688">{{ pack.lowerRight }}</var-chip>
+      </var-badge>
+      <var-badge type="danger" position="left-top">
+        <var-chip plain :round="false" color="#009688">{{ pack.upperLeft }}</var-chip>
+      </var-badge>
+      <var-badge type="danger" position="left-bottom">
+        <var-chip plain :round="false" color="#009688">{{ pack.lowerLeft }}</var-chip>
+      </var-badge>
+    </var-space>
+
+    <app-type>{{ pack.whetherToDisplayTheBadge }}</app-type>
+    <var-space :size="['2.666vw', '6vw']">
+      <var-badge type="danger" position="right-top" :hidden="hidden">
+        <var-chip plain :round="false" color="#009688">{{ pack.badge }}</var-chip>
+      </var-badge>
+
+      <var-button type="success" @click="handleChange">
+        {{ pack.clickToChangeTheState }}
+      </var-button>
+    </var-space>
+
+    <app-type>{{ pack.customBadgeColors }}</app-type>
+    <var-badge color="#6200ea" position="right-top">
+      <var-chip plain :round="false" color="#009688">{{ pack.badge }}</var-chip>
+    </var-badge>
+
+    <app-type>{{ pack.customBadgeIcons }}</app-type>
+    <var-badge color="#6200ea" position="right-top" icon="notebook">
+      <var-chip plain :round="false" color="#009688">{{ pack.badge }}</var-chip>
+    </var-badge>
+  </div>
+</template>

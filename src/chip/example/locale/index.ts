@@ -1,11 +1,12 @@
 // lib
-import _zhCN from '../../../../../varlet/packages/varlet-ui/src/locale/zh-CN'
-import _enCN from '../../../../../varlet/packages/varlet-ui/src/locale/en-US'
+import _zhCN from '@varlet/ui/es/locale/zh-CN'
+import _enCN from '@varlet/ui/es/locale/en-US'
 // mobile example doc
 import zhCN from './zh-CN'
 import enUS from './en-US'
-import { useLocale, add as _add, use as _use } from '../../../../../varlet/packages/varlet-ui/src/locale'
+import { Locale } from '@varlet/ui'
 
+const { useLocale, use: _use, add: _add } = Locale
 const { add, use: exampleUse, pack, packs, merge } = useLocale()
 
 const use = (lang: string) => {
