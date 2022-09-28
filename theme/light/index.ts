@@ -35,6 +35,10 @@ import input from './input'
 import radio from './radio'
 import select from './select'
 import common from './common'
+import _switch from './switch'
+import rote from './rote'
+import slider from './slider'
+import uploader from './uploader'
 
 export default {
   common,
@@ -74,4 +78,8 @@ export default {
   input,
   radio,
   select,
+  _switch,
+  rote,
+  slider,
+  uploader,
 }
