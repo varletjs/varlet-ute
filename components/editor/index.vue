@@ -17,8 +17,8 @@ import '@varlet/ui/es/button/style/index'
 import '@varlet/ui/es/action-sheet/style/index'
 import '@varlet/ui/es/dialog/style/index'
 import '@varlet/ui/es/snackbar/style/index'
-import presetLightTheme from '../../src/theme/light'
-import presetDarkTheme from '../../src/theme/dark'
+import presetLightTheme from '../../theme/light'
+import presetDarkTheme from '../../theme/dark'
 import { flatObject } from '../../src/utils/shared'
 
 const props = defineProps({
@@ -132,7 +132,7 @@ const handleClick = async () => {
         name: '重置当前属性',
         icon: 'delete',
         color: '#00c48f',
-        iconSize: '',
+        iconSize: '25',
         className: '',
         disabled: false,
       },
@@ -140,7 +140,7 @@ const handleClick = async () => {
         name: '重置所有属性',
         icon: 'trash-can',
         color: '#ff9800',
-        iconSize: '',
+        iconSize: '25',
         className: '',
         disabled: false,
       },
@@ -148,7 +148,7 @@ const handleClick = async () => {
         name: '导出',
         icon: 'upload',
         color: '#00afef',
-        iconSize: '',
+        iconSize: '25',
         className: '',
         disabled: false,
       },
@@ -165,7 +165,6 @@ const handleClick = async () => {
       : ''
     : ''
 }
-
 </script>
 
 <template>
