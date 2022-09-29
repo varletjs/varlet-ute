@@ -400,7 +400,7 @@ module.exports = {
           'zh-CN': 'Radio 单选框',
           'en-US': 'Radio',
         },
-        doc: 'radio.ts-group',
+        doc: 'radio-group',
         type: 2,
       },
       {
