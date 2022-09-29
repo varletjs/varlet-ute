@@ -1,15 +1,22 @@
-<script lang='ts' setup>
-import { computed, defineProps, onUnmounted, reactive, Ref, ref, watch } from 'vue'
+<script lang="ts" setup>
+import { computed, defineProps, onUnmounted, Ref, ref, watch } from 'vue'
 import { watchTheme } from '@varlet/cli/site/utils'
 import {
-  BottomNavigation as VarBottomNavigation,
-  BottomNavigationItem as VarBottomNavigationItem,
   Input as VarInput,
-  StyleProvider
+  StyleProvider,
+  Button as VarButton,
+  Icon as VarIcon,
+  ActionSheet,
+  Dialog,
+  Snackbar,
 } from '@varlet/ui'
 import '@varlet/ui/es/input/style/index'
 import '@varlet/ui/es/bottom-navigation/style/index'
 import '@varlet/ui/es/bottom-navigation-item/style/index'
+import '@varlet/ui/es/button/style/index'
+import '@varlet/ui/es/action-sheet/style/index'
+import '@varlet/ui/es/dialog/style/index'
+import '@varlet/ui/es/snackbar/style/index'
 import presetLightTheme from '../../src/theme/light'
 import presetDarkTheme from '../../src/theme/dark'
 import { flatObject } from '../../src/utils/shared'
@@ -17,13 +24,13 @@ import { flatObject } from '../../src/utils/shared'
 const props = defineProps({
   componentName: {
     type: String,
-    required: true
-  }
+    required: true,
+  },
 })
 
 type Theme = 'lightTheme' | 'darkTheme'
 
-const currentTheme: Ref<Theme> = ref(localStorage.getItem('VARLET_THEME') as Theme ?? 'lightTheme')
+const currentTheme: Ref<Theme> = ref((localStorage.getItem('VARLET_THEME') as Theme) ?? 'lightTheme')
 const model = ref(getModel())
 
 function getPatch(): any {
@@ -106,45 +113,77 @@ const clear = () => {
   localStorage.setItem(currentTheme.value, JSON.stringify(patch))
 
   model.value = getModel()
+  Snackbar.success('已清空当前属性')
 }
 
 const clearAll = () => {
   localStorage.setItem(currentTheme.value, currentTheme.value === 'lightTheme' ? '{}' : JSON.stringify(presetDarkTheme))
 
   model.value = getModel()
+  Snackbar.success('已清空所有属性')
 }
 
 const exportPatch = () => {
   const { patch } = getPatch()
   console.log(flatObject(patch))
+  Snackbar.success('已导出当前主题')
+}
+
+const handleClick = async () => {
+  const action = await ActionSheet({
+    actions: [
+      {
+        name: '重置当前属性',
+        icon: 'delete',
+        color: '#00c48f',
+        iconSize: '',
+        className: '',
+        disabled: false,
+      },
+      {
+        name: '重置所有属性',
+        icon: 'trash-can',
+        color: '#ff9800',
+        iconSize: '',
+        className: '',
+        disabled: false,
+      },
+      {
+        name: '导出',
+        icon: 'upload',
+        color: '#00afef',
+        iconSize: '',
+        className: '',
+        disabled: false,
+      },
+    ],
+  })
+
+  action !== 'close' && (await Dialog(`是否要${action.name}?`)) === 'confirm'
+    ? action.name === '重置当前属性'
+      ? clear()
+      : action.name === '重置所有属性'
+      ? clearAll()
+      : action.name === '导出'
+      ? exportPatch()
+      : ''
+    : ''
 }
 </script>
 
 <template>
-  <div class='editor' ref='body'>
-    <div v-for='key in editorItems' :key='key'>
-      <var-input
-        class='editor__input'
-        :placeholder='key'
-        v-model='model[key]'
-      >
-      </var-input>
+  <div class="editor" ref="body">
+    <div v-for="key in editorItems" :key="key">
+      <var-input class="editor__input" :placeholder="key" v-model="model[key]"> </var-input>
     </div>
 
-    <var-bottom-navigation
-      class='bottom-navigation-example'
-    >
-      <template #fab>
-        <var-bottom-navigation-item label='导出' icon='heart' @click='exportPatch' />
-      </template>
-      <var-bottom-navigation-item label='重制当前属性' icon='home' @click='clear' />
-      <var-bottom-navigation-item style='display: none' />
-      <var-bottom-navigation-item label='重制所有属性' icon='home' @click='clearAll' />
-    </var-bottom-navigation>
+    <var-button class="editor__suspend" type="primary" round @click="handleClick">
+      <var-icon name="plus" />
+    </var-button>
   </div>
 </template>
 
-<style lang='less' scoped>
+<style lang="less" scoped>
 .editor {
   padding: 24px;
   position: relative;
@@ -154,13 +193,11 @@ const exportPatch = () => {
     color: #646566;
     margin-top: 24px;
   }
-}
 
-.bottom-navigation-example {
-  position: fixed;
-  bottom: 0;
-  left: 240px;
-  padding: 16px 0;
-  border-top: 1px solid #eaeaea;
+  &__suspend {
+    position: fixed;
+    bottom: 30px;
+    right: 450px;
+  }
 }
 </style>
