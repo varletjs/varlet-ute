@@ -103,22 +103,18 @@ const editorItems = computed(() => Object.keys(model.value))
 
 const clear = () => {
   const { patch } = getPatch()
-
   if (currentTheme.value === 'lightTheme') {
     Reflect.deleteProperty(patch, props.componentName)
   } else {
     patch[props.componentName] = presetDarkTheme[props.componentName]
   }
-
   localStorage.setItem(currentTheme.value, JSON.stringify(patch))
-
   model.value = getModel()
   Snackbar.success('已清空当前属性')
 }
 
 const clearAll = () => {
   localStorage.setItem(currentTheme.value, currentTheme.value === 'lightTheme' ? '{}' : JSON.stringify(presetDarkTheme))
-
   model.value = getModel()
   Snackbar.success('已清空所有属性')
 }
@@ -169,6 +165,7 @@ const handleClick = async () => {
       : ''
     : ''
 }
+
 </script>
 
 <template>

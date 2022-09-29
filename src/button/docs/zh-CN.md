@@ -1,5 +1,5 @@
 # 按钮
 
 ```vue
-import ModifyColor from '../example/ModifyColor'
+import Editor from '../example/Editor.vue'
 ```

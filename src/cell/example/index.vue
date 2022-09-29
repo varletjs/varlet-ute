@@ -1,25 +1,14 @@
 <script setup>
-import { Cell as VarCell, Icon as VarIcon, StyleProvider } from '@varlet/ui'
+import { Cell as VarCell, Icon as VarIcon } from '@varlet/ui'
 import { pack, use } from './locale/index'
 import AppType from '@varlet/cli/site/mobile/components/AppType'
 import '@varlet/ui/es/icon/style/index'
 import '@varlet/ui/es/cell/style/index'
-import {watchLang} from "@varlet/cli/site/utils";
-import { reactive, watch } from "vue";
-
-const _ButtonTheme = reactive({value: JSON.parse(localStorage.getItem(localStorage.getItem('VARLET_THEME')))?.cell || {} })
-window.addEventListener('message', res => {
-  _ButtonTheme.value = JSON.parse(localStorage.getItem(localStorage.getItem('VARLET_THEME')))[res?.data]
-})
-
-watch(()=>_ButtonTheme.value, ()=> {
-  StyleProvider(_ButtonTheme.value)
-})
-
-StyleProvider(_ButtonTheme.value)
-
+import { watchLang } from '@varlet/cli/site/utils'
+import { useSync } from '../../utils/sync'
 
 watchLang(use)
+useSync()
 </script>
 
 <template>
@@ -52,6 +41,4 @@ watchLang(use)
   <var-cell border> {{ pack.content }} </var-cell>
 </template>
 
-<style scoped>
-
-</style>
+<style scoped></style>

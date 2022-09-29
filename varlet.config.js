@@ -5,7 +5,7 @@ module.exports = {
   pc: {
     title: {
       'zh-CN': 'Varlet UI 主题编辑工具',
-      'en-US': 'Varlet UI theme editing tool'
+      'en-US': 'Varlet UI theme editing tool',
     },
     header: {
       versions: null,
@@ -14,7 +14,7 @@ module.exports = {
         'en-US': 'English',
       },
       playground: null,
-      github: 'https://github.com/varletjs/varlet',
+      github: 'https://github.com/sdhushu/varlet-ute',
     },
     menu: [
       {
@@ -457,14 +457,14 @@ module.exports = {
     redirect: '/home',
     title: {
       'zh-CN': 'Varlet UI 主题编辑工具',
-      'en-US': 'Varlet UI theme editing tool'
+      'en-US': 'Varlet UI theme editing tool',
     },
     header: {
       i18n: {
         'zh-CN': '中文',
         'en-US': 'English',
       },
-      github: 'https://github.com/varletjs/varlet',
+      github: 'https://github.com/sdhushu/varlet-ute',
     },
   },
   highlight: {
