@@ -68,11 +68,10 @@ function setStorage() {
   const { patch } = getPatch()
 
   if (Object.keys(componentPatch).length === 0) {
-    Reflect.deleteProperty(componentPatch, props.componentName)
+    Reflect.deleteProperty(patch, props.componentName)
   } else {
     patch[props.componentName] = componentPatch
   }
-
   localStorage.setItem(currentTheme.value, JSON.stringify(patch))
 
   window[0]?.postMessage({ action: 'editor-change', from: 'editor' }, '*')
@@ -193,7 +192,7 @@ const handleClick = async () => {
   &__suspend {
     position: fixed;
     bottom: 30px;
-    right: 450px;
+    right: 26%;
   }
 }
 </style>
