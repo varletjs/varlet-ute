@@ -28,6 +28,7 @@ import steps from './steps'
 import swipe from './swipe'
 import table from './table'
 import tabs from './tabs'
+import timePicker from './time-picker'
 import checkbox from './checkbox-group'
 import counter from './counter'
 import form from './form'
@@ -72,6 +73,7 @@ export default {
   swipe,
   table,
   tabs,
+  timePicker,
   checkbox,
   counter,
   form,
