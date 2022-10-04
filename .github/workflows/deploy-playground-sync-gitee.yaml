@@ -22,9 +22,6 @@ jobs:
           node-version: '16'
           cache: 'pnpm'
 
-      - name: Install dependencies
-        run: pnpm install --no-frozen-lockfile --ignore-scripts && node scripts/bootstrap.mjs
-
       - name: Build ute
         run: pnpm build
 
@@ -32,7 +29,7 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@4.1.1
         with:
           branch: ute-gh-page
-          folder: packages/varlet-ui-theme/site
+          folder: varlet-ui-theme/site
 
       - name: Sync to Gitee
         uses: wearerequired/git-mirror-action@master
