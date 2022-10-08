@@ -31,8 +31,8 @@ jobs:
       - name: Deploy site
         uses: JamesIves/github-pages-deploy-action@4.1.1
         with:
-          branch: ute-gh-page
-          folder: varlet-ui-theme/site
+          branch: gh-page
+          folder: varlet-ui-theme
 
       - name: Sync to Gitee
         uses: wearerequired/git-mirror-action@master
