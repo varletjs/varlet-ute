@@ -1,0 +1,1 @@
+:root{--menu-background-color: #fff}.var-menu-enter-from,.var-menu-leave-to{opacity:0}.var-menu-enter-active,.var-menu-leave-active{transition-property:opacity;transition-duration:.25s}.var-menu{display:inline-block}.var-menu--menu-background-color{background:var(--menu-background-color);transition:opacity .25s,background-color .25s}
