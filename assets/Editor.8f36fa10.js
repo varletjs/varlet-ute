@@ -1,1 +1,0 @@
-import{a as o}from"./utils.625f73d8.js";import{u as r}from"./index.8014895c.js";import{E as t}from"./index.84db7c68.js";import{f as a,i as c}from"./vue-router.esm-bundler.94b4319d.js";const f={setup(e){return o(r,"pc"),(m,p)=>(a(),c(t,{"component-name":"counter"}))}};export{f as _};
