@@ -40,6 +40,7 @@ import _switch from './switch'
 import rote from './rote'
 import slider from './slider'
 import uploader from './uploader'
+import menu from './menu'
 
 export default {
   common,
@@ -84,4 +85,5 @@ export default {
   rote,
   slider,
   uploader,
+  menu,
 }
