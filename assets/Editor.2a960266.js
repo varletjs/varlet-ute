@@ -1,0 +1,1 @@
+import{a as o}from"./utils.625f73d8.js";import{u as r}from"./index.7c360d5d.js";import{E as a}from"./index.84db7c68.js";import{f as t,i as c}from"./vue-router.esm-bundler.94b4319d.js";const f={setup(s){return o(r,"pc"),(e,m)=>(t(),c(a,{"component-name":"snackBar"}))}};export{f as _};
