@@ -50,14 +50,6 @@ module.exports = {
       },
       {
         text: {
-          'zh-CN': 'Image 图片',
-          'en-US': 'Image',
-        },
-        doc: 'image',
-        type: 2,
-      },
-      {
-        text: {
           'zh-CN': 'Loading 加载',
           'en-US': 'Loading',
         },
@@ -82,14 +74,6 @@ module.exports = {
       },
       {
         text: {
-          'zh-CN': 'Elevation 海拔效果',
-          'en-US': 'Elevation',
-        },
-        doc: 'styles',
-        type: 2,
-      },
-      {
-        text: {
           'zh-CN': '展示组件',
           'en-US': 'Display Components',
         },
@@ -109,30 +93,6 @@ module.exports = {
           'en-US': 'Collapse',
         },
         doc: 'collapse',
-        type: 2,
-      },
-      {
-        text: {
-          'zh-CN': 'Space 间隔',
-          'en-US': 'Space',
-        },
-        doc: 'space',
-        type: 2,
-      },
-      {
-        text: {
-          'zh-CN': 'Layout 布局',
-          'en-US': 'Layout',
-        },
-        doc: 'row',
-        type: 2,
-      },
-      {
-        text: {
-          'zh-CN': 'Sticky 粘性布局',
-          'en-US': 'Sticky',
-        },
-        doc: 'sticky',
         type: 2,
       },
       {
@@ -255,14 +215,6 @@ module.exports = {
       },
       {
         text: {
-          'zh-CN': 'Lazy 懒加载',
-          'en-US': 'Lazy',
-        },
-        doc: 'lazy',
-        type: 2,
-      },
-      {
-        text: {
           'zh-CN': '反馈组件',
           'en-US': 'Action Components',
         },
@@ -330,14 +282,6 @@ module.exports = {
           'en-US': 'BackTop',
         },
         doc: 'back-top',
-        type: 2,
-      },
-      {
-        text: {
-          'zh-CN': 'Countdown 倒计时',
-          'en-US': 'Countdown',
-        },
-        doc: 'countdown',
         type: 2,
       },
       {
