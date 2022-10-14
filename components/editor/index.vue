@@ -19,7 +19,7 @@ import '@varlet/ui/es/dialog/style/index'
 import '@varlet/ui/es/snackbar/style/index'
 import presetLightTheme from '../../theme/light'
 import presetDarkTheme from '../../theme/dark'
-import { flatObject } from '../../src/utils/shared'
+import { flatObject, downloadFile } from '../../src/utils/shared'
 
 const props = defineProps({
   componentName: {
@@ -120,8 +120,13 @@ const clearAll = () => {
 
 const exportPatch = () => {
   const { patch } = getPatch()
-  console.log(flatObject(patch))
-  Snackbar.success('已导出当前主题')
+  downloadFile(flatObject(patch))
+    .then(() => {
+      Snackbar.success('已导出当前主题')
+    })
+    .catch((err) => {
+      Snackbar.error(err)
+    })
 }
 
 const handleClick = async () => {
