@@ -1,0 +1,1 @@
+import{a as o}from"./utils.68b0d7ff.js";import{u as r}from"./index.420aff0e.js";import{E as t}from"./index.323c400a.js";import{f as a,i as s}from"./vue-router.esm-bundler.bcd2b732.js";const f={setup(c){return o(r,"pc"),(e,m)=>(a(),s(t,{"component-name":"tabs"}))}};export{f as _};
