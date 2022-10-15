@@ -1,1 +1,0 @@
-import{a as o}from"./utils.01509b1d.js";import{u as r}from"./index.67101259.js";import{E as a}from"./index.8d5dbf45.js";import{f as t,i as p}from"./vue-router.esm-bundler.b1bb2899.js";const f={setup(c){return o(r,"pc"),(e,m)=>(t(),p(a,{"component-name":"pagination"}))}};export{f as _};
