@@ -1,0 +1,1 @@
+import{a as o}from"./utils.7ac801ce.js";import{u as r}from"./index.6cde561b.js";import{E as a}from"./index.c1f4d055.js";import{f as t,i as c}from"./vue-router.esm-bundler.eec1de73.js";const f={setup(e){return o(r,"pc"),(m,p)=>(t(),c(a,{"component-name":"radio"}))}};export{f as _};
