@@ -7,6 +7,61 @@ module.exports = {
       'zh-CN': 'Varlet UI 主题编辑工具',
       'en-US': 'Varlet UI theme editing tool',
     },
+    indexPage: {
+      description: {
+        'zh-CN': 'Varlet UTE 是一个基于 VARLET 开发的主题编辑工具,\n由社区建立起来的主题团队进行维护',
+        'en-US':
+          'Varlet UTE is a theme editing tool developed based on VARLET and maintained by the theme team established by the community',
+      },
+      features: [
+        {
+          name: {
+            'zh-CN': '组件主题丰富',
+            'en-US': 'Rich components',
+          },
+          description: {
+            'zh-CN': '提供 40+ 高质量通用组件主题',
+            'en-US': 'Provide 40+ high quality general purpose components theme',
+          },
+        },
+        {
+          name: {
+            'zh-CN': '主题定制',
+            'en-US': 'Theme customization',
+          },
+          description: {
+            'zh-CN': '内置亮色和暗色两种主题，支持组件的样式自定义',
+            'en-US': 'Built-in light and dark themes, support style customization of components',
+          },
+        },
+        {
+          name: {
+            'zh-CN': '国人开发',
+            'en-US': 'Developed by Chinese',
+          },
+          description: {
+            'zh-CN': '由国人开发，完善的中英文文档和后勤保障',
+            'en-US': 'Complete Chinese and English documentation and logistics support',
+          },
+        },
+      ],
+      contributors: {
+        label: {
+          'zh-CN': '贡献者',
+          'en-US': 'Contributors',
+        },
+        link: 'https://github.com/sdhushu/varlet-ute/graphs/contributors',
+        image: 'https://contrib.rocks/image?repo=sdhushu/varlet-ute',
+      },
+      license: {
+        'zh-CN': '主题编辑基于 MIT 协议，您可以自由的使用和分享',
+        'en-US': 'Theme editing tool under the MIT License, You can use and share freely.',
+      },
+      copyright: {
+        'zh-CN': 'Copyright © 2022 varletjs 组织成员以及 VARLET UTE 的贡献者们',
+        'en-US': 'Copyright © 2022 varletjs member and VARLET UTE contributors.',
+      },
+    },
     header: {
       versions: null,
       i18n: {

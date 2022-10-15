@@ -1,6 +1,6 @@
 <script lang="ts" setup>
 import { computed, defineProps, onUnmounted, Ref, ref, watch } from 'vue'
-import { watchTheme } from '@varlet/cli/site/utils'
+import { watchLang, watchTheme } from '@varlet/cli/site/utils'
 import {
   Input as VarInput,
   StyleProvider,
@@ -19,6 +19,7 @@ import '@varlet/ui/es/dialog/style/index'
 import '@varlet/ui/es/snackbar/style/index'
 import presetLightTheme from '../../theme/light'
 import presetDarkTheme from '../../theme/dark'
+import { pack, use } from './locale'
 import { flatObject, downloadFile } from '../../src/utils/shared'
 
 const props = defineProps({
@@ -85,6 +86,8 @@ function handleMessage(event: MessageEvent) {
 
 watch(() => model.value, setStorage, { deep: true })
 
+watchLang(use)
+
 watchTheme((theme) => {
   currentTheme.value = theme
 
@@ -109,20 +112,20 @@ const clear = () => {
   }
   localStorage.setItem(currentTheme.value, JSON.stringify(patch))
   model.value = getModel()
-  Snackbar.success('已清空当前属性')
+  Snackbar.success(pack.value.clearPropsSuccess)
 }
 
 const clearAll = () => {
   localStorage.setItem(currentTheme.value, currentTheme.value === 'lightTheme' ? '{}' : JSON.stringify(presetDarkTheme))
   model.value = getModel()
-  Snackbar.success('已清空所有属性')
+  Snackbar.success(pack.value.clearAllSuccess)
 }
 
 const exportPatch = () => {
   const { patch } = getPatch()
   downloadFile(flatObject(patch))
     .then(() => {
-      Snackbar.success('已导出当前主题')
+      Snackbar.success(pack.value.exportsSuccess)
     })
     .catch((err) => {
       Snackbar.error(err)
@@ -133,7 +136,7 @@ const handleClick = async () => {
   const action = await ActionSheet({
     actions: [
       {
-        name: '重置当前属性',
+        name: pack.value.clearProps,
         icon: 'delete',
         color: '#00c48f',
         iconSize: '25',
@@ -141,7 +144,7 @@ const handleClick = async () => {
         disabled: false,
       },
       {
-        name: '重置所有属性',
+        name: pack.value.clearAll,
         icon: 'trash-can',
         color: '#ff9800',
         iconSize: '25',
@@ -149,7 +152,7 @@ const handleClick = async () => {
         disabled: false,
       },
       {
-        name: '导出',
+        name: pack.value.exports,
         icon: 'upload',
         color: '#00afef',
         iconSize: '25',
@@ -159,12 +162,12 @@ const handleClick = async () => {
     ],
   })
 
-  action !== 'close' && (await Dialog(`是否要${action.name}?`)) === 'confirm'
-    ? action.name === '重置当前属性'
+  action !== 'close' && (await Dialog(`${pack.value.isHave}${action.name}?`)) === 'confirm'
+    ? action.name === pack.value.clearProps
       ? clear()
-      : action.name === '重置所有属性'
+      : action.name === pack.value.clearAll
       ? clearAll()
-      : action.name === '导出'
+      : action.name === pack.value.exports
       ? exportPatch()
       : ''
     : ''
