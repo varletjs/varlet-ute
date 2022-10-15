@@ -26,8 +26,8 @@ pnpm dev
 ```
 
 ### PR & Issue
-使用过程中出现的问题可以到 [github](https://github.com/sdhushu/varlet-ute) 来给我们提 [issue](https://github.com/sdhushu/varlet-ute/issues)，
-我们会在第一时间处理问题。也可以给我们提 [PR](https://github.com/sdhushu/varlet-ute/pulls)，十分欢迎小伙伴们来找茬。
+使用过程中出现的问题可以到 [github](https://github.com/varletjs/varlet-ute) 来给我们提 [issue](https://github.com/varletjs/varlet-ute/issues)，
+我们会在第一时间处理问题。也可以给我们提 [PR](https://github.com/varletjs/varlet-ute/pulls)，十分欢迎小伙伴们来找茬。
 
 ### 开源协议
 主题编辑工具基于 `MIT` 协议。

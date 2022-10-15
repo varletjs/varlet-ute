@@ -14,7 +14,7 @@ module.exports = {
         'en-US': 'English',
       },
       playground: null,
-      github: 'https://github.com/sdhushu/varlet-ute',
+      github: 'https://github.com/varletjs/varlet-ute',
     },
     menu: [
       {
@@ -408,7 +408,7 @@ module.exports = {
         'zh-CN': '中文',
         'en-US': 'English',
       },
-      github: 'https://github.com/sdhushu/varlet-ute',
+      github: 'https://github.com/varletjs/varlet-ute',
     },
   },
   highlight: {
