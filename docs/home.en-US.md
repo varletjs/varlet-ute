@@ -1,7 +1,7 @@
 
 ### Intro
 
-Varlet UTE is a theme editing tool based on `VARLET` and maintained by the community team.
+Varlet UI theme editor is a theme editing tool based on `VARLET` and maintained by the community team.
 
 ### Features
 

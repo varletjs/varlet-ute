@@ -1,5 +1,5 @@
 module.exports = {
-  title: 'VARLET UTE',
+  title: 'Varlet UTE',
   logo: './logo.svg',
   useMobile: true,
   pc: {
@@ -9,8 +9,9 @@ module.exports = {
     },
     indexPage: {
       description: {
-        'zh-CN': 'Varlet UTE 是一个基于 VARLET 开发的主题编辑工具,\n由社区团队维护',
-        'en-US': 'Varlet UTE is a theme editing tool developed based on VARLET,\nMaintained by the community team',
+        'zh-CN': 'Varlet UI theme editor 是一个基于 VARLET 开发的主题编辑工具,\n由社区团队维护',
+        'en-US':
+          'Varlet UI theme editor is a theme editing tool developed based on VARLET,\nMaintained by the community team',
       },
       features: [
         {
@@ -88,8 +89,8 @@ module.exports = {
         'en-US': 'Theme editing tool under the MIT License, You can use and share freely.',
       },
       copyright: {
-        'zh-CN': 'Copyright © 2022 varletjs 组织成员以及 VARLET UTE 的贡献者们',
-        'en-US': 'Copyright © 2022 varletjs member and VARLET UTE contributors.',
+        'zh-CN': 'Copyright © 2022 varletjs 组织成员以及 Varlet UI theme editor 的贡献者们',
+        'en-US': 'Copyright © 2022 varletjs member and Varlet UI theme editor contributors.',
       },
     },
     header: {
