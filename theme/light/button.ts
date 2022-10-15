@@ -6,7 +6,7 @@ const ButtonTheme = {
   '--button-warning-color': 'var(--color-warning)',
   '--button-info-color': 'var(--color-info)',
   '--button-disabled-color': 'var(--color-disabled)',
-  '--button-disabled-text-color': '\tvar(--color-text-disabled)',
+  '--button-disabled-text-color': 'var(--color-text-disabled)',
   '--button-border-radius': '4px',
   '--button-mini-padding': '0 9px',
   '--button-small-padding': '0 11px',
