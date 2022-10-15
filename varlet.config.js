@@ -5,33 +5,63 @@ module.exports = {
   pc: {
     title: {
       'zh-CN': 'Varlet UI 主题编辑工具',
-      'en-US': 'Varlet UI theme editing tool',
+      'en-US': 'Varlet UI theme editor',
     },
     indexPage: {
       description: {
-        'zh-CN': 'Varlet UTE 是一个基于 VARLET 开发的主题编辑工具,\n由社区建立起来的主题团队进行维护',
-        'en-US':
-          'Varlet UTE is a theme editing tool developed based on VARLET and maintained by the theme team established by the community',
+        'zh-CN': 'Varlet UTE 是一个基于 VARLET 开发的主题编辑工具,\n由社区团队维护',
+        'en-US': 'Varlet UTE is a theme editing tool developed based on VARLET,\nMaintained by the community team',
       },
       features: [
         {
           name: {
-            'zh-CN': '组件主题丰富',
-            'en-US': 'Rich components',
+            'zh-CN': '全组件支持',
+            'en-US': 'Full component support',
           },
           description: {
-            'zh-CN': '提供 40+ 高质量通用组件主题',
-            'en-US': 'Provide 40+ high quality general purpose components theme',
+            'zh-CN': '提供所有 VARLET 组件的主题编辑',
+            'en-US': 'Provides theme editing for all VARLET components',
           },
         },
         {
           name: {
-            'zh-CN': '主题定制',
-            'en-US': 'Theme customization',
+            'zh-CN': '支持亮色和暗色两种主题',
+            'en-US': 'Support both light and dark themes',
           },
           description: {
-            'zh-CN': '内置亮色和暗色两种主题，支持组件的样式自定义',
-            'en-US': 'Built-in light and dark themes, support style customization of components',
+            'zh-CN': '内置亮色和暗色两种主题的预设，支持切换预设进行编辑和导出',
+            'en-US': 'Built-in presets for light and dark themes, support switching presets for editing and exporting',
+          },
+        },
+        {
+          name: {
+            'zh-CN': '主题文件十分轻量',
+            'en-US': 'Theme files are very lightweight',
+          },
+          description: {
+            'zh-CN': '只导出一个包含主题补丁的 javascript 文件，十分轻量',
+            'en-US': 'Only export a javascript file of the theme patch, very lightweight',
+          },
+        },
+        {
+          name: {
+            'zh-CN': '使用 VARLET CLI 构建',
+            'en-US': 'Use VARLET CLI build',
+          },
+          description: {
+            'zh-CN': '使用 VARLET CLI 构建，与 VARLET 官方文档的交互体验高度一致',
+            'en-US':
+              'Built using VARLET CLI, the interactive experience is consistent with the official VARLET documentation',
+          },
+        },
+        {
+          name: {
+            'zh-CN': '国际化',
+            'en-US': 'Locale',
+          },
+          description: {
+            'zh-CN': '支持中文和英文两种语言',
+            'en-US': 'Support Chinese and English two languages',
           },
         },
         {
