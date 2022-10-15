@@ -1,0 +1,1 @@
+import{C as e}from"./index.6d19d5a3.js";import{a as o,w as x}from"./vue-router.esm-bundler.25bd2824.js";function m(t,a){var r=o(e.zIndex);return x(t,n=>{n&&(e.zIndex+=a,r.value=e.zIndex)},{immediate:!0}),{zIndex:r}}export{m as u};
