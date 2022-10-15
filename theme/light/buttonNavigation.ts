@@ -4,7 +4,6 @@ const buttonNavigationTheme = {
   '--bottom-navigation-background-color': '#fff',
   '--bottom-navigation-border-color': '#bcc2cb',
   '--bottom-navigation-fab-offset': '4px',
-
   '--bottom-navigation-item-font-size': 'var(--font-size-sm)',
   '--bottom-navigation-item-inactive-color': '#646566',
   '--bottom-navigation-item-active-color': 'var(--color-primary)',
