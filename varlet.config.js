@@ -1,11 +1,11 @@
 module.exports = {
-  title: 'Varlet UTE',
+  title: 'VARLET UTE',
   logo: './logo.svg',
   useMobile: true,
   pc: {
     title: {
-      'zh-CN': 'Varlet UI 主题编辑工具',
-      'en-US': 'Varlet UI theme editor',
+      'zh-CN': 'VARLET UI 主题编辑工具',
+      'en-US': 'VARLET UI theme editor',
     },
     indexPage: {
       description: {
