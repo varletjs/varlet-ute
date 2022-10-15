@@ -7,8 +7,9 @@ import icons from '@varlet/icons'
 import Clipboard from 'clipboard'
 import '@varlet/ui/es/icon/style/index'
 import '@varlet/ui/es/snackbar/style/index'
+import '@varlet/ui/es/styles/elevation.css'
 import { use, pack } from './locale'
-import { watchLang, watchDarkMode } from '@varlet/cli/site/utils'
+import { watchLang, watchDarkMode, watchTheme } from '@varlet/cli/site/utils'
 import { useSync } from '../../utils/sync'
 
 const iconNames = reactive(icons)
@@ -30,7 +31,7 @@ onMounted(() => {
 })
 
 watchDarkMode(dark, (themes) => {
-  background.value = themes === 'darkThemes' ? '#303030' : '#fff'
+  background.value = themes === 'darkTheme' ? '#303030' : '#fff'
 })
 watchLang(use)
 useSync()
