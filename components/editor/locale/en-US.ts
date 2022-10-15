@@ -1,9 +1,9 @@
 export default {
-  clearProps: 'Reset Current Properties',
-  clearAll: 'Reset All Properties',
-  exports: 'export',
-  clearPropsSuccess: 'The current attribute has been cleared',
-  clearAllSuccess: 'Empty all attributes',
+  clearProps: 'Reset current component Variables',
+  clearAll: 'Reset all component variables',
+  exports: 'Export current theme',
+  clearPropsSuccess: 'The current component variables has been cleared',
+  clearAllSuccess: 'Empty all component variables',
   exportsSuccess: 'Exported current theme',
   isHave: 'Do you want to',
 }

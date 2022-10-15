@@ -86,7 +86,7 @@ function handleMessage(event: MessageEvent) {
 
 watch(() => model.value, setStorage, { deep: true })
 
-watchLang(use)
+watchLang(use, 'pc')
 
 watchTheme((theme) => {
   currentTheme.value = theme
@@ -180,15 +180,14 @@ const handleClick = async () => {
       <var-input class="editor__input" :placeholder="key" v-model="model[key]"> </var-input>
     </div>
 
-    <var-button class="editor__suspend" type="primary" round @click="handleClick">
-      <var-icon name="plus" />
+    <var-button class="editor__suspend editor--375" type="primary" round @click="handleClick">
+      <var-icon name="cog" :size="26" />
     </var-button>
   </div>
 </template>
 
 <style lang="less" scoped>
 .editor {
-  padding: 24px;
   position: relative;
   margin-bottom: 55px;
 
@@ -199,8 +198,16 @@ const handleClick = async () => {
 
   &__suspend {
     position: fixed;
-    bottom: 30px;
-    right: 26%;
+    z-index: 10;
+    padding: 18px;
+    bottom: 61px;
+    right: 400px;
+  }
+
+  @media screen and (min-width: 1600px) {
+    &--375 {
+      right: 450px;
+    }
   }
 }
 </style>

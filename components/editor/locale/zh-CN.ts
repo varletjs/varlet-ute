@@ -1,9 +1,9 @@
 export default {
-  clearProps: '重置当前属性',
-  clearAll: '重置所有属性',
-  exports: '导出',
-  clearPropsSuccess: '已清空当前属性',
-  clearAllSuccess: '已清空所有属性',
+  clearProps: '重置当前组件样式变量',
+  clearAll: '重置所有组件样式变量',
+  exports: '导出当前主题',
+  clearPropsSuccess: '已清空当前组件样式变量',
+  clearAllSuccess: '已清空所有组件样式变量',
   exportsSuccess: '已导出当前主题',
   isHave: '是否要',
 }

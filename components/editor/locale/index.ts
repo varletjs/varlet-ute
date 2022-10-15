@@ -7,7 +7,7 @@ import enUS from './en-US'
 import { Locale } from '@varlet/ui'
 
 const { useLocale, use: _use, add: _add } = Locale
-const { add, use: exampleUse, pack, packs, merge } = useLocale()
+const { add, use: exampleUse, pack, packs, merge } = useLocale<any>()
 
 const use = (lang: string) => {
   _use(lang)
