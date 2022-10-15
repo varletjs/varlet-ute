@@ -5,6 +5,10 @@
   </a>
   <h1>VARLET UTE</h1>
   <p>Varlet UI 主题编辑工具</p>
+  <p> 
+    <a href="https://vike123.gitee.io/varlet-ute/#/zh-CN/index">文档(Gitee)</a> | 
+    <a href="https://github.com/varletjs/varlet-ute/blob/main/README.md">English README</a>
+  </p>
   <p>
     <img src="https://img.shields.io/npm/v/@varlet/ui?style=flat-square" alt="version">
     <img src="https://img.shields.io/badge/vue-v3.2.0%2B-%23407fbc" alt="vue">
