@@ -16,35 +16,15 @@
 
 ### 介绍
 
-Varlet UTE 是一个基于 `VARLET` 开发的主题编辑工具,由社区建立起来的主题团队进行维护。
+Varlet UTE 是一个基于 `VARLET` 开发的主题编辑工具, 由社区团队维护
 
 ### 特性
-- 🚀 &nbsp; 提供40+个高质量通用组件主题切换
-- 🚀 &nbsp; 简单配置导出主题包
+
+- 🚀 &nbsp; 提供 VARLET 组件库所有组件的主题编辑能力
+- 🚀 &nbsp; 导出的主题包十分轻量
 - 💪 &nbsp; 由国人开发，完善的中英文文档和后勤保障
-- 🛠️ &nbsp; 支持主题定制
-- 🛠️ &nbsp; 支持暗黑模式
+- 🛠️ &nbsp; 支持定制暗黑模式主题
 
-### 安装
-
-### Webpack / Vite
-```shell
-# 通过 pnpm 安装
-
-# pnpm
-pnpm
-```
-
-### 启动
-
-
-### Webpack / Vite
-```shell
-# 通过 pnpm 启动
-
-# pnpm dev
-pnpm dev
-```
 
 ### 感谢贡献者们做出的努力
 

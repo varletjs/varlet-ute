@@ -1,15 +1,14 @@
 
 ### Intro
 
-Varlet UTE is a theme editing tool developed based on 'VARLET' and maintained by the theme team established by the community.
+Varlet UTE is a theme editing tool based on `VARLET` and maintained by the community team.
 
 ### Features
 
-- 🚀 &nbsp; Provide 40+high-quality general components for theme switching
-- 🚀 &nbsp; Simple configuration of export theme package
+- 🚀 &nbsp; Provides theme editing capabilities for all components of the VARLET component library
+- 🚀 &nbsp; The exported theme package is very lightweight
 - 💪 &nbsp; Developed by Chinese people, complete Chinese and English documents and logistical support
-- 🛠️ &nbsp; Support theme customization
-- 🛠️ &nbsp; Support for dark mode
+- 🛠️ &nbsp; Support editing dark mode
 
 ### PR & Issue
 If you have any problems during use, you can [issue](https://github.com/varletjs/varlet-ute/issues) them to us on [github](https://github.com/varletjs/varlet-ute),
@@ -39,4 +38,4 @@ pnpm dev
 ### Special thanks
 
 Special thanks to `haoziqaq` for the visual support of our component library documentation site, 
-so as to help us continue to evolve.
+to help us continue to evolve.

@@ -4,7 +4,7 @@
     <img src="https://varlet.gitee.io/varlet-ui/logo.svg" width="150">
   </a>
   <h1>VARLET UTE</h1>
-  <p>Varlet UI Topic editing tools</p>
+  <p>Varlet UI Theme Editor</p>
   <p> 
     <a href="https://vike123.gitee.io/varlet-ute/#/en-US/index">Documentation(Gitee)</a> | 
     <a href="https://github.com/varletjs/varlet-ute/blob/main/README.zh-CN.md">中文README</a>
@@ -20,31 +20,14 @@
 
 ### Intro
 
-Varlet UTE is a theme editing tool developed based on 'VARLET' and maintained by the theme team established by the community.
+Varlet UTE is a theme editing tool based on `VARLET` and maintained by the community team
 
 ### Features
-- 🚀 &nbsp; Provide 40+high-quality general components for theme switching
-- 🚀 &nbsp; Simple configuration of export theme package
+
+- 🚀 &nbsp; Provides theme editing capabilities for all components of the VARLET component library
+- 🚀 &nbsp; The exported theme package is very lightweight
 - 💪 &nbsp; Developed by Chinese people, complete Chinese and English documents and logistical support
-- 🛠️ &nbsp; Support theme customization
-- 🛠️ &nbsp; Support for dark mode
-
-### Install
-
-### Webpack / Vite
-```shell
-# pnpm
-pnpm
-```
-
-### Start-up
-
-
-### Webpack / Vite
-```shell
-# pnpm dev
-pnpm dev
-```
+- 🛠️ &nbsp; Support editing dark mode
 
 ### Thank the contributors for their efforts
 
