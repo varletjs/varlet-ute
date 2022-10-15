@@ -1,1 +1,0 @@
-import{a as o}from"./utils.68b0d7ff.js";import{u as r}from"./index.9bb0e6cb.js";import{E as a}from"./index.323c400a.js";import{f as t,i as e}from"./vue-router.esm-bundler.bcd2b732.js";const f={setup(c){return o(r,"pc"),(m,p)=>(t(),e(a,{"component-name":"badge"}))}};export{f as _};

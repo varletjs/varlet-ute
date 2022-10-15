@@ -1,1 +1,0 @@
-import{a as o}from"./utils.68b0d7ff.js";import{u as r}from"./index.6dd56b7e.js";import{E as p}from"./index.323c400a.js";import{f as t,i as a}from"./vue-router.esm-bundler.bcd2b732.js";const f={setup(c){return o(r,"pc"),(e,m)=>(t(),a(p,{"component-name":"popup"}))}};export{f as _};
