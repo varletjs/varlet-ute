@@ -6,6 +6,7 @@ import {
   Select as VarSelect,
   Option as VarOption,
   Cell as VarCell,
+  Snackbar,
 } from '@varlet/ui'
 import AppType from '@varlet/cli/site/mobile/components/AppType'
 import '@varlet/ui/es/menu/style/index'
