@@ -37,7 +37,7 @@ Varlet UTE 是一个基于 `VARLET` 开发的主题编辑工具, 由社区团队
 
 * 微信
 
-<img style="width: 25%" src="https://github.com/varletjs/varlet-ute/blob/dev/sponsor/community.png?raw=true" />
+<img style="width: 25%" src="https://github.com/varletjs/varlet-ute/blob/main/sponsor/community.png?raw=true" />
 
 
 ### 感谢贡献者们做出的努力
