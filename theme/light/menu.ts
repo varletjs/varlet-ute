@@ -1,5 +1,5 @@
 const MenuTheme = {
-  '--menu-background-color': '#272727',
+  '--menu-background-color': '#fff',
 }
 
 export default MenuTheme

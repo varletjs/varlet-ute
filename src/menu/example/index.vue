@@ -7,13 +7,13 @@ import {
   Option as VarOption,
   Cell as VarCell,
 } from '@varlet/ui'
-import { pack, use } from './locale/index'
 import AppType from '@varlet/cli/site/mobile/components/AppType'
 import '@varlet/ui/es/menu/style/index'
 import '@varlet/ui/es/space/style/index'
 import '@varlet/ui/es/button/style/index'
 import '@varlet/ui/es/option/style/index'
 import '@varlet/ui/es/cell/style/index'
+import { pack, use } from './locale'
 import { watchLang } from '@varlet/cli/site/utils'
 import { useSync } from '../../utils/sync'
 import { reactive, toRefs, ref, onMounted } from 'vue'
@@ -29,7 +29,6 @@ const values = reactive({
   placement: true,
   trigger: false,
 })
-const bgColor = ref('#fff')
 const { placement } = toRefs(values)
 const placementValue = ref('cover-top-start')
 const placementOption = ref([
