@@ -31,6 +31,14 @@ Varlet UTE 是一个基于 `VARLET` 开发的主题编辑工具, 由社区团队
 - 🛠️ &nbsp; 支持亮色和暗色两种主题定制
 - 🌍 &nbsp; 支持国际化
 
+### 反馈和交流
+
+我们推荐使用`issue`列表进行最直接有效的反馈，也可以下面的方式
+
+* 微信
+
+<img style="width: 25%" src="https://github.com/varletjs/varlet-ute/blob/dev/sponsor/community.png?raw=true" />
+
 
 ### 感谢贡献者们做出的努力
 

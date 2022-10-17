@@ -31,6 +31,14 @@ Varlet UTE is a theme editing tool based on `VARLET` and maintained by the commu
 - 🛠️ &nbsp; Support editing dark mode
 - 🌍 &nbsp; Support internationalization
 
+### Community
+
+We recommend that [issue](https://github.com/varletjs/varlet-ute/issues) be used for problem feedback, or others:
+
+* Wechat group 
+
+<img style="width: 25%" src="https://github.com/varletjs/varlet-ute/blob/dev/sponsor/community.png?raw=true" />
+
 ### Thank the contributors for their efforts
 
 <a href="https://github.com/sdhushu/varlet-ute/graphs/contributors">
