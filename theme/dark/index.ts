@@ -27,6 +27,7 @@ import tabs from './tabs'
 import appBar from './appBar'
 import bottomNavigation from './bottomNavigation'
 import bottomNavigationItem from './bottomNavigationItem'
+import menu from './menu'
 import common from './common'
 
 export default {
@@ -60,4 +61,5 @@ export default {
   appBar,
   bottomNavigation,
   bottomNavigationItem,
+  menu,
 } as Record<string, any>

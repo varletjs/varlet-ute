@@ -6,14 +6,15 @@ import {
   Select as VarSelect,
   Option as VarOption,
   Cell as VarCell,
+  Snackbar,
 } from '@varlet/ui'
-import { pack, use } from './locale/index'
 import AppType from '@varlet/cli/site/mobile/components/AppType'
 import '@varlet/ui/es/menu/style/index'
 import '@varlet/ui/es/space/style/index'
 import '@varlet/ui/es/button/style/index'
 import '@varlet/ui/es/option/style/index'
 import '@varlet/ui/es/cell/style/index'
+import { pack, use } from './locale'
 import { watchLang } from '@varlet/cli/site/utils'
 import { useSync } from '../../utils/sync'
 import { reactive, toRefs, ref, onMounted } from 'vue'
@@ -29,7 +30,7 @@ const values = reactive({
   placement: true,
   trigger: false,
 })
-const bgColor = ref('#fff')
+const show = ref(false)
 const { placement } = toRefs(values)
 const placementValue = ref('cover-top-start')
 const placementOption = ref([
@@ -55,6 +56,10 @@ const placementOption = ref([
   'cover-right',
 ])
 const trigger = ref('click')
+
+const closeMenu = () => {
+  show.value = false
+}
 
 watchLang(use)
 useSync()
@@ -140,6 +145,17 @@ useSync()
       </template>
     </var-menu>
   </var-space>
+
+  <app-type>{{ pack.twoWayBinding }}</app-type>
+  <var-menu v-model:show="show">
+    <var-button type="primary">{{ pack.twoWayBinding }}</var-button>
+
+    <template #menu>
+      <var-cell @click="closeMenu">{{ pack.menuOption }}</var-cell>
+      <var-cell @click="closeMenu">{{ pack.menuOption }}</var-cell>
+      <var-cell @click="closeMenu">{{ pack.menuOption }}</var-cell>
+    </template>
+  </var-menu>
 
   <div style="margin-bottom: 100px"></div>
 </template>
