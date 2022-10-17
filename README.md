@@ -37,7 +37,7 @@ We recommend that [issue](https://github.com/varletjs/varlet-ute/issues) be used
 
 * Wechat group 
 
-<img style="width: 25%" src="https://github.com/varletjs/varlet-ute/blob/dev/sponsor/community.png?raw=true" />
+<img style="width: 25%" src="https://github.com/varletjs/varlet-ute/blob/main/sponsor/community.png?raw=true" />
 
 ### Thank the contributors for their efforts
 
