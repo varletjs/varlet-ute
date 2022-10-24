@@ -105,6 +105,21 @@ module.exports = {
     menu: [
       {
         text: {
+          'zh-CN': '开发指南',
+          'en-US': 'Developer guide',
+        },
+        type: 1,
+      },
+      {
+        text: {
+          'zh-CN': '公共样式',
+          'en-US': 'Common Style',
+        },
+        doc: 'common',
+        type: 3,
+      },
+      {
+        text: {
           'zh-CN': '基础组件',
           'en-US': 'Basic Components',
         },
