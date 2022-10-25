@@ -1,1 +1,0 @@
-import{a as o}from"./utils.a4daaef2.js";import{u as r}from"./index.7a50ff9a.js";import{E as a}from"./index.0f7c0e3c.js";import{f as t,i as e}from"./vue-router.esm-bundler.20019b11.js";const f={setup(c){return o(r,"pc"),(m,p)=>(t(),e(a,{"component-name":"indexBar"}))}};export{f as _};

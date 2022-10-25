@@ -1,1 +1,0 @@
-import{a as o}from"./utils.a4daaef2.js";import{u as r}from"./index.af4a50c3.js";import{E as a}from"./index.0f7c0e3c.js";import{f as t,i as c}from"./vue-router.esm-bundler.20019b11.js";const f={setup(e){return o(r,"pc"),(m,p)=>(t(),c(a,{"component-name":"loading"}))}};export{f as _};
