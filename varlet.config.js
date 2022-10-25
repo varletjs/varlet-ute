@@ -116,7 +116,7 @@ module.exports = {
           'en-US': 'Common Style',
         },
         doc: 'common',
-        type: 3,
+        type: 2,
       },
       {
         text: {
