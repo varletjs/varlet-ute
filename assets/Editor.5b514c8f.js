@@ -1,0 +1,1 @@
+import{a as o}from"./utils.cf2f2c98.js";import{u as r}from"./index.8b973987.js";import{E as t}from"./index.27377099.js";import{f as a,i as p}from"./vue-router.esm-bundler.9c1b2fea.js";const f={setup(c){return o(r,"pc"),(e,m)=>(a(),p(t,{"component-name":"input"}))}};export{f as _};
