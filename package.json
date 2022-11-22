@@ -1,6 +1,6 @@
 {
   "name": "varlet-ute",
-  "version": "0.0.0",
+  "version": "2.2.1",
   "description": "Varlet UI theme editing tool",
   "keywords": [
     "Vue",
@@ -23,7 +23,7 @@
     "create": "varlet-cli create"
   },
   "dependencies": {
-    "@varlet/ui": "^2.0.3",
+    "@varlet/ui": "^2.2.1",
     "@types/file-saver": "^2.0.5",
     "file-saver": "^2.0.5",
     "jszip": "^3.10.1"
