@@ -1,0 +1,1 @@
+import{a as o}from"./utils.ec5be6f5.js";import{u as r}from"./index.f1d55ebb.js";import{E as t}from"./index.51e6d153.js";import{f as a,i as e}from"./vue-router.esm-bundler.94bfc301.js";const f={setup(p){return o(r,"pc"),(s,c)=>(a(),e(t,{"component-name":"swipe"}))}};export{f as _};

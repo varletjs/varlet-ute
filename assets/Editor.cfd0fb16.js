@@ -1,0 +1,1 @@
+import{a as o}from"./utils.ec5be6f5.js";import{u as r}from"./index.3afb93eb.js";import{E as a}from"./index.51e6d153.js";import{f as t,i as p}from"./vue-router.esm-bundler.94bfc301.js";const f={setup(c){return o(r,"pc"),(e,m)=>(t(),p(a,{"component-name":"appBar"}))}};export{f as _};
