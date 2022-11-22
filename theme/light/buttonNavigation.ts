@@ -2,7 +2,7 @@ const buttonNavigationTheme = {
   '--bottom-navigation-height': '50px',
   '--bottom-navigation-z-index': '1',
   '--bottom-navigation-background-color': '#fff',
-  '--bottom-navigation-border-color': '#bcc2cb',
+  '--bottom-navigation-border-color': '#e3e3e3',
   '--bottom-navigation-fab-offset': '4px',
   '--bottom-navigation-item-font-size': 'var(--font-size-sm)',
   '--bottom-navigation-item-inactive-color': '#646566',

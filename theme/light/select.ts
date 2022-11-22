@@ -6,6 +6,7 @@ const SelectTheme = {
   '--select-focus-color': 'var(--color-primary)',
   '--select-scroller-background': '#fff',
   '--select-scroller-padding': '6px 0',
+  '--select-scroller-margin': '8px 0 0 0',
   '--select-scroller-max-height': '278px',
   '--select-placeholder-size': '16px',
   '--select-icon-padding': '16px 0 0',

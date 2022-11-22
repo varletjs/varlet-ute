@@ -7,8 +7,9 @@ const CounterTheme = {
   '--counter-input-font-size': '14px',
   '--counter-button-size': '28px',
   '--counter-button-icon-size': '100%',
-  '--counter-disabled-color': 'var(--color-text-disabled)',
-  '--input-error-color': 'var(--color-danger)',
+  '--counter-disabled-color': 'var(--color-disabled)',
+  '--counter-disabled-opacity': 'var(--opacity-disabled)',
+  '--counter-error-color': 'var(--color-danger)',
 }
 
 export default CounterTheme

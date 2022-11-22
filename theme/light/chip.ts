@@ -6,7 +6,7 @@ const ChipTheme = {
   '--chip-warning-color': 'var(--color-warning)',
   '--chip-info-color': 'var(--color-info)',
   '--chip-border-radius': '2px',
-  '--chip-mini-heighta': '16px',
+  '--chip-mini-height': '16px',
   '--chip-small-height': '24px',
   '--chip-normal-height': '32px',
   '--chip-large-height': '40px',
@@ -19,6 +19,10 @@ const ChipTheme = {
   '--chip-text-normal-margin': '0 5px',
   '--chip-text-small-margin': '0 3px',
   '--chip-text-mini-margin': '0 2px',
+  '--chip-mini-font-size': 'var(--font-size-xs)',
+  '--chip-small-font-size': 'var(--font-size-sm)',
+  '--chip-normal-font-size': 'var(--font-size-md)',
+  '--chip-large-font-size': 'var(--font-size-lg)',
 }
 
 export default ChipTheme

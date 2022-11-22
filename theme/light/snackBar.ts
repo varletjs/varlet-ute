@@ -1,6 +1,6 @@
 const snackBarTheme = {
   '--snackbar-width': '256px',
-  '--snackbar-color': 'rgba(255, 255, 255, .87)',
+  '--snackbar-color': 'rgba(255, 255, 255, 0.87)',
   '--snackbar-border-radius': '4px',
   '--snackbar-background': '#333',
   '--snackbar-font-size': 'var(--font-size-md)',

@@ -7,6 +7,7 @@ const SwitchTheme = {
   '--switch-handle-color': '#fff',
   '--switch-handle-active-background': 'var(--color-primary)',
   '--switch-handle-error-background': 'var(--color-danger)',
+  '--switch-disabled-opacity': 'var(--opacity-disabled)',
 }
 
 export default SwitchTheme

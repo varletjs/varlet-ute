@@ -12,6 +12,7 @@ const DialogTheme = {
   '--dialog-confirm-button-color': 'var(--color-primary)',
   '--dialog-cancel-button-color': 'var(--color-primary)',
   '--dialog-background': '#fff',
+  '--dialog-background:': '#fff',
 }
 
 export default DialogTheme
