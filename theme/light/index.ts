@@ -42,6 +42,7 @@ import slider from './slider'
 import uploader from './uploader'
 import menu from './menu'
 import overlay from './overlay'
+import result from './result'
 
 export default {
   common,
@@ -88,4 +89,5 @@ export default {
   uploader,
   menu,
   overlay,
+  result,
 }

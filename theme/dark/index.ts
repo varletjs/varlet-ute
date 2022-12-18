@@ -29,6 +29,7 @@ import bottomNavigation from './bottomNavigation'
 import bottomNavigationItem from './bottomNavigationItem'
 import menu from './menu'
 import common from './common'
+import result from './result'
 
 export default {
   common,
@@ -62,4 +63,5 @@ export default {
   bottomNavigation,
   bottomNavigationItem,
   menu,
+  result,
 } as Record<string, any>

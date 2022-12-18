@@ -246,6 +246,14 @@ module.exports = {
       },
       {
         text: {
+          'zh-CN': 'Result 结果',
+          'en-US': 'Result',
+        },
+        doc: 'result',
+        type: 2,
+      },
+      {
+        text: {
           'zh-CN': 'Divider 分割线',
           'en-US': 'Divider',
         },
