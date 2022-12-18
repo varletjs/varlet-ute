@@ -1,1 +1,0 @@
-import{a as o}from"./utils.d3fc41d2.js";import{u as r}from"./index.eb4a2fcc.js";import{E as t}from"./index.8c23d347.js";import{f as a,i as c}from"./vue-router.esm-bundler.e1992e73.js";const f={setup(p){return o(r,"pc"),(e,m)=>(a(),c(t,{"component-name":"chip"}))}};export{f as _};
