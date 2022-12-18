@@ -1,1 +1,0 @@
-import{a as o}from"./utils.ec5be6f5.js";import{u as r}from"./index.7983aa16.js";import{E as a}from"./index.51e6d153.js";import{f as t,i as e}from"./vue-router.esm-bundler.94bfc301.js";const f={setup(p){return o(r,"pc"),(c,m)=>(t(),e(a,{"component-name":"uploader"}))}};export{f as _};
