@@ -8,7 +8,7 @@ specifiers:
   '@varlet/shared': ^2.0.3
   '@varlet/stylelint-config': ^2.0.3
   '@varlet/touch-emulator': ^2.0.3
-  '@varlet/ui': ^2.2.1
+  '@varlet/ui': ^2.4.2
   '@vue/test-utils': ^2.0.2
   clipboard: ^2.0.6
   eslint: ^7.30.0
@@ -26,7 +26,7 @@ specifiers:
 
 dependencies:
   '@types/file-saver': 2.0.5
-  '@varlet/ui': registry.npmmirror.com/@varlet/ui/2.2.1_vue@3.2.25
+  '@varlet/ui': registry.npmmirror.com/@varlet/ui/2.4.2_vue@3.2.25
   file-saver: 2.0.5
   jszip: 3.10.1
 
@@ -2212,7 +2212,7 @@ packages:
     resolution: {integrity: sha512-RZNwNclF7+MS/8bDg70amg32dyeZGZxiDuQmZxKLAlQjr3jGyLx+4Kkk58UO7D2QdgFIQCovuSuZESne6RG6XQ==}
     engines: {node: '>= 6.0.0'}
     dependencies:
-      debug: 4.3.4
+      debug: registry.npmmirror.com/debug/4.3.4
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -3402,10 +3402,6 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: true
 
-  /decimal.js/10.4.1:
-    resolution: {integrity: sha512-F29o+vci4DodHYT9UrR5IEbfBw9pE5eSapIJdTqXK5+6hq+t8VRxwQyKlW2i+KDKFkkJQRvFyI/QXD83h8LyQw==}
-    dev: true
-
   /decode-uri-component/0.2.0:
     resolution: {integrity: sha512-hjf+xovcEn31w/EUYdTXQh/8smFL/dzYjohQGEIgjyNavaJfBY2p5F527Bo1VPATxv0VYTUC2bOcXvqFwk78Og==}
     engines: {node: '>=0.10'}
@@ -4079,7 +4075,7 @@ packages:
     resolution: {integrity: sha512-w/ozOKR9Obk3qoWeY/WDi6MFta9AoMR+zud60mdnbniMcBxRuFJyDt2LdX/14A1UABeqk+Uk+LDfUpvoGKppZA==}
     engines: {node: '>=0.10.0'}
     dependencies:
-      debug: 2.6.9
+      debug: registry.npmmirror.com/debug/2.6.9
       define-property: 0.2.5
       extend-shallow: 2.0.1
       posix-character-classes: 0.1.1
@@ -5262,14 +5258,6 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: true
 
-  /is-wsl/2.2.0:
-    resolution: {integrity: sha512-fKzAra0rGJUUBwGBgNkHZuToZcn+TtXHpeCgmkMJMMYx1sQDYaCSyjJBSCa2nH1DGm7s3n1oBnohoVTBaN7Lww==}
-    engines: {node: '>=8'}
-    dependencies:
-      is-docker: 2.2.1
-    dev: true
-    optional: true
-
   /isarray/0.0.1:
     resolution: {integrity: sha512-D2S+3GLxWH+uhrNEcoh/fnmYeP8E8/zHl644d/jdA0g2uyXvy3sb0qxotE+ne0LtccHknQzWwZEzhak7oJ0COQ==}
     dev: true
@@ -5823,7 +5811,7 @@ packages:
       cssom: 0.4.4
       cssstyle: 2.3.0
       data-urls: 2.0.0
-      decimal.js: 10.4.1
+      decimal.js: registry.npmmirror.com/decimal.js/10.4.1
       domexception: 2.0.1
       escodegen: 2.0.0
       form-data: 3.0.1
@@ -8257,7 +8245,7 @@ packages:
     dependencies:
       psl: 1.9.0
       punycode: 2.1.1
-      universalify: 0.2.0
+      universalify: registry.npmmirror.com/universalify/0.2.0
       url-parse: 1.5.10
     dev: true
 
@@ -8489,11 +8477,6 @@ packages:
 
   /universalify/0.1.2:
     resolution: {integrity: sha512-rBJeI5CXAlmy1pV+617WB9J63U6XcazHHF2f2dbJix4XzpUF0RS3Zbj0FGIOCAva5P/d/GBOYaACQ1w+0azUkg==}
-    engines: {node: '>= 4.0.0'}
-    dev: true
-
-  /universalify/0.2.0:
-    resolution: {integrity: sha512-CJ1QgKmNg3CwvAv/kOFmtnEN05f0D/cn9QntgNOQlQF9dgvVTHj3t+8JPdjqawCHk7V/KA+fbUqzZ9XWhcqPUg==}
     engines: {node: '>= 4.0.0'}
     dev: true
 
@@ -9094,10 +9077,10 @@ packages:
     version: 18.8.4
     dev: false
 
-  registry.npmmirror.com/@varlet/icons/2.2.1:
-    resolution: {integrity: sha512-IPiHoIzPr5ZQzg1cFcIfoPCfTPpEe4rxYjUPWIhHZJiAhrY37QN4aNz+w5pOGEl36KL9XHGWk/jePPgvqCmvNw==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@varlet/icons/-/icons-2.2.1.tgz}
+  registry.npmmirror.com/@varlet/icons/2.4.2:
+    resolution: {integrity: sha512-CwW++DgB+lHjnyPiE1xytWwTp+NfWRnLE8vV7mEGuYKMpWaAlYmLnGk8hXQEz875QESpj+j8XNVDDpA6PN4m8Q==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@varlet/icons/-/icons-2.4.2.tgz}
     name: '@varlet/icons'
-    version: 2.2.1
+    version: 2.4.2
     hasBin: true
     dependencies:
       commander: registry.npmmirror.com/commander/6.2.1
@@ -9108,23 +9091,23 @@ packages:
       - supports-color
     dev: false
 
-  registry.npmmirror.com/@varlet/shared/2.2.1:
-    resolution: {integrity: sha512-tGBwn0Mw88kK9eQ674l/WpIw/ycFpQitYvww7mK1KMpU+yAy3d+d+RqTImCCxJ0meifsmCi1AnfgIFoWKuFgwg==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@varlet/shared/-/shared-2.2.1.tgz}
+  registry.npmmirror.com/@varlet/shared/2.4.2:
+    resolution: {integrity: sha512-orWNQ8iMFRs6djvIvBkHjJPraZ+hiq2hU5e99JJpl7ghvB45EYI00Lq/YOgbwSSjQlLYd7ZcNIQ8QFAvf2hBFw==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@varlet/shared/-/shared-2.4.2.tgz}
     name: '@varlet/shared'
-    version: 2.2.1
+    version: 2.4.2
     dev: false
 
-  registry.npmmirror.com/@varlet/ui/2.2.1_vue@3.2.25:
-    resolution: {integrity: sha512-9/R8f+9wny8q+BTeXCjgIjhdXmg7Nd76P2mIa/L2VH2sRM3hRy5wUy4YJlROFJ37bYr1mekieguwbp6ehrISAw==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@varlet/ui/-/ui-2.2.1.tgz}
-    id: registry.npmmirror.com/@varlet/ui/2.2.1
+  registry.npmmirror.com/@varlet/ui/2.4.2_vue@3.2.25:
+    resolution: {integrity: sha512-Dh5Yh6IELrIDR8lI6pqf4Hfgpze7tnOx1JhcHZK994l11vV++Ri+mEoPvYxEAWstCmr/JK7aRCzeCmoEFoU9qA==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@varlet/ui/-/ui-2.4.2.tgz}
+    id: registry.npmmirror.com/@varlet/ui/2.4.2
     name: '@varlet/ui'
-    version: 2.2.1
+    version: 2.4.2
     peerDependencies:
       vue: ^3.2.0
     dependencies:
       '@popperjs/core': registry.npmmirror.com/@popperjs/core/2.11.6
-      '@varlet/icons': registry.npmmirror.com/@varlet/icons/2.2.1
-      '@varlet/shared': registry.npmmirror.com/@varlet/shared/2.2.1
+      '@varlet/icons': registry.npmmirror.com/@varlet/icons/2.4.2
+      '@varlet/shared': registry.npmmirror.com/@varlet/shared/2.4.2
       dayjs: registry.npmmirror.com/dayjs/1.11.5
       decimal.js: registry.npmmirror.com/decimal.js/10.4.1
       vue: 3.2.25
@@ -9493,6 +9476,20 @@ packages:
     dependencies:
       ms: registry.npmmirror.com/ms/2.0.0
 
+  registry.npmmirror.com/debug/4.3.4:
+    resolution: {integrity: sha512-PRWFHuSU3eDtQJPvnNY7Jcket1j0t5OuOsFzPPzsekD52Zl8qUfFIPEiswXqIvHWGVHOgX+7G/vCNNhehwxfkQ==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/debug/-/debug-4.3.4.tgz}
+    name: debug
+    version: 4.3.4
+    engines: {node: '>=6.0'}
+    peerDependencies:
+      supports-color: '*'
+    peerDependenciesMeta:
+      supports-color:
+        optional: true
+    dependencies:
+      ms: registry.npmmirror.com/ms/2.1.2
+    dev: true
+
   registry.npmmirror.com/decamelize-keys/1.1.0:
     resolution: {integrity: sha512-ocLWuYzRPoS9bfiSdDd3cxvrzovVMZnRDVEzAs+hWIVXGDbHxWMECij2OBuyB/An0FFW/nLuq6Kv1i/YC5Qfzg==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/decamelize-keys/-/decamelize-keys-1.1.0.tgz}
     name: decamelize-keys
@@ -9514,7 +9511,6 @@ packages:
     resolution: {integrity: sha512-F29o+vci4DodHYT9UrR5IEbfBw9pE5eSapIJdTqXK5+6hq+t8VRxwQyKlW2i+KDKFkkJQRvFyI/QXD83h8LyQw==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/decimal.js/-/decimal.js-10.4.1.tgz}
     name: decimal.js
     version: 10.4.1
-    dev: false
 
   registry.npmmirror.com/decode-uri-component/0.2.0:
     resolution: {integrity: sha512-hjf+xovcEn31w/EUYdTXQh/8smFL/dzYjohQGEIgjyNavaJfBY2p5F527Bo1VPATxv0VYTUC2bOcXvqFwk78Og==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/decode-uri-component/-/decode-uri-component-0.2.0.tgz}
@@ -10597,6 +10593,16 @@ packages:
     engines: {node: '>=4'}
     dev: true
 
+  registry.npmmirror.com/is-wsl/2.2.0:
+    resolution: {integrity: sha512-fKzAra0rGJUUBwGBgNkHZuToZcn+TtXHpeCgmkMJMMYx1sQDYaCSyjJBSCa2nH1DGm7s3n1oBnohoVTBaN7Lww==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/is-wsl/-/is-wsl-2.2.0.tgz}
+    name: is-wsl
+    version: 2.2.0
+    engines: {node: '>=8'}
+    dependencies:
+      is-docker: 2.2.1
+    dev: true
+    optional: true
+
   registry.npmmirror.com/isarray/0.0.1:
     resolution: {integrity: sha512-D2S+3GLxWH+uhrNEcoh/fnmYeP8E8/zHl644d/jdA0g2uyXvy3sb0qxotE+ne0LtccHknQzWwZEzhak7oJ0COQ==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/isarray/-/isarray-0.0.1.tgz}
     name: isarray
@@ -10874,6 +10880,12 @@ packages:
     name: ms
     version: 2.0.0
 
+  registry.npmmirror.com/ms/2.1.2:
+    resolution: {integrity: sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/ms/-/ms-2.1.2.tgz}
+    name: ms
+    version: 2.1.2
+    dev: true
+
   registry.npmmirror.com/ms/2.1.3:
     resolution: {integrity: sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/ms/-/ms-2.1.3.tgz}
     name: ms
@@ -10924,7 +10936,7 @@ packages:
     requiresBuild: true
     dependencies:
       growly: 1.3.0
-      is-wsl: 2.2.0
+      is-wsl: registry.npmmirror.com/is-wsl/2.2.0
       semver: 7.3.8
       shellwords: 0.1.1
       uuid: 8.3.2
@@ -11775,6 +11787,13 @@ packages:
     version: 0.1.2
     engines: {node: '>= 4.0.0'}
     dev: false
+
+  registry.npmmirror.com/universalify/0.2.0:
+    resolution: {integrity: sha512-CJ1QgKmNg3CwvAv/kOFmtnEN05f0D/cn9QntgNOQlQF9dgvVTHj3t+8JPdjqawCHk7V/KA+fbUqzZ9XWhcqPUg==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/universalify/-/universalify-0.2.0.tgz}
+    name: universalify
+    version: 0.2.0
+    engines: {node: '>= 4.0.0'}
+    dev: true
 
   registry.npmmirror.com/universalify/2.0.0:
     resolution: {integrity: sha512-hAZsKq7Yy11Zu1DE0OzWjw7nnLZmJZYTDZZyEFHZdUhV8FkH5MCfoU1XMaxXovpyW5nq5scPqq0ZDP9Zyl04oQ==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/universalify/-/universalify-2.0.0.tgz}

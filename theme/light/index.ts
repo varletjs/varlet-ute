@@ -41,6 +41,7 @@ import rote from './rote'
 import slider from './slider'
 import uploader from './uploader'
 import menu from './menu'
+import overlay from './overlay'
 
 export default {
   common,
@@ -86,4 +87,5 @@ export default {
   slider,
   uploader,
   menu,
+  overlay,
 }

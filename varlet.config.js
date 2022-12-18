@@ -355,6 +355,14 @@ module.exports = {
       },
       {
         text: {
+          'zh-CN': 'Overlay 遮罩层',
+          'en-US': 'Overlay',
+        },
+        doc: 'overlay',
+        type: 2,
+      },
+      {
+        text: {
           'zh-CN': 'Popup 弹出层',
           'en-US': 'Popup',
         },
