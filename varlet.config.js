@@ -135,6 +135,14 @@ module.exports = {
       },
       {
         text: {
+          'zh-CN': 'Breadcrumbs 面包屑',
+          'en-US': 'Breadcrumbs',
+        },
+        doc: 'breadcrumbs',
+        type: 2,
+      },
+      {
+        text: {
           'zh-CN': 'Cell 单元格',
           'en-US': 'Cell',
         },
@@ -395,10 +403,26 @@ module.exports = {
       },
       {
         text: {
+          'zh-CN': 'Tooltip 提示',
+          'en-US': 'Tooltip',
+        },
+        doc: 'tooltip',
+        type: 2,
+      },
+      {
+        text: {
           'zh-CN': 'BackTop 回到顶部',
           'en-US': 'BackTop',
         },
         doc: 'back-top',
+        type: 2,
+      },
+      {
+        text: {
+          'zh-CN': 'LoadingBar 加载条',
+          'en-US': 'LoadingBar',
+        },
+        doc: 'loading-bar',
         type: 2,
       },
       {

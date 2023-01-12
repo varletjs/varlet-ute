@@ -43,6 +43,9 @@ import uploader from './uploader'
 import menu from './menu'
 import overlay from './overlay'
 import result from './result'
+import breadcrumbs from './breadcrumbs'
+import tooltip from './tooltip'
+import loadingBar from './loading-bar'
 
 export default {
   common,
@@ -90,4 +93,7 @@ export default {
   menu,
   overlay,
   result,
+  breadcrumbs,
+  tooltip,
+  loadingBar,
 }

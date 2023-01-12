@@ -30,6 +30,7 @@ import bottomNavigationItem from './bottomNavigationItem'
 import menu from './menu'
 import common from './common'
 import result from './result'
+import breadcrumbs from './breadcrumbs'
 
 export default {
   common,
@@ -64,4 +65,5 @@ export default {
   bottomNavigationItem,
   menu,
   result,
+  breadcrumbs,
 } as Record<string, any>
