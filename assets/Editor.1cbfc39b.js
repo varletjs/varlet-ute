@@ -1,0 +1,1 @@
+import{a as o}from"./utils.2cef13e3.js";import{u as r}from"./index.899f3cac.js";import{E as a}from"./index.afb619e5.js";import{f as t,i as c}from"./vue-router.esm-bundler.d85fe05e.js";const f={setup(e){return o(r,"pc"),(m,p)=>(t(),c(a,{"component-name":"loadingBar"}))}};export{f as _};
