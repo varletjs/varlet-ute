@@ -2,6 +2,9 @@ module.exports = {
   title: 'VARLET UTE',
   logo: './logo.svg',
   useMobile: true,
+  analysis: {
+    baidu: 'https://hm.baidu.com/hm.js?8d065d955a8e118b4b353e886f116a9b',
+  },
   pc: {
     title: {
       'zh-CN': 'VARLET UI 主题编辑工具',
