@@ -1,1 +1,0 @@
-import{a as o}from"./utils.2cef13e3.js";import{u as r}from"./index.3c718e3a.js";import{E as t}from"./index.afb619e5.js";import{f as a,i as p}from"./vue-router.esm-bundler.d85fe05e.js";const f={setup(c){return o(r,"pc"),(e,m)=>(a(),p(t,{"component-name":"tooltip"}))}};export{f as _};

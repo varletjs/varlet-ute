@@ -1,1 +1,0 @@
-import{a as o}from"./utils.2cef13e3.js";import{u as r}from"./index.565fc8f8.js";import{E as t}from"./index.afb619e5.js";import{f as a,i as e}from"./vue-router.esm-bundler.d85fe05e.js";const f={setup(c){return o(r,"pc"),(m,p)=>(a(),e(t,{"component-name":"datePicker"}))}};export{f as _};

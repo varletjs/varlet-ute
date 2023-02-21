@@ -1,1 +1,0 @@
-import{a as o}from"./utils.2cef13e3.js";import{u as r}from"./index.e4cb7ab6.js";import{E as t}from"./index.afb619e5.js";import{f as a,i as p}from"./vue-router.esm-bundler.d85fe05e.js";const f={setup(e){return o(r,"pc"),(c,m)=>(a(),p(t,{"component-name":"ripple"}))}};export{f as _};
