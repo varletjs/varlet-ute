@@ -1,16 +1,15 @@
 <script setup>
-import AppType from '@varlet/cli/site/mobile/components/AppType'
+import { AppType, watchLang, watchDarkMode } from '@varlet/cli/client'
 import { reactive, ref, onMounted } from 'vue'
 import { Icon as VarIcon, Snackbar } from '@varlet/ui'
 import dark from '../../../theme/dark'
 import icons from '@varlet/icons'
 import Clipboard from 'clipboard'
+import { use, pack } from './locale'
+import { useSync } from '../../utils/sync'
 import '@varlet/ui/es/icon/style/index'
 import '@varlet/ui/es/snackbar/style/index'
 import '@varlet/ui/es/styles/elevation.css'
-import { use, pack } from './locale'
-import { watchLang, watchDarkMode, watchTheme } from '@varlet/cli/site/utils'
-import { useSync } from '../../utils/sync'
 
 const iconNames = reactive(icons)
 const iconName = ref('information')

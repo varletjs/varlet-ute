@@ -1,8 +1,7 @@
 <script setup>
 import { Ripple as vRipple } from '@varlet/ui'
 import '@varlet/ui/es/ripple/style/index'
-import AppType from '@varlet/cli/site/mobile/components/AppType'
-import { watchLang } from '@varlet/cli/site/utils'
+import { AppType, watchLang } from '@varlet/cli/client'
 import { pack, use } from './locale'
 import { useSync } from '../../utils/sync'
 

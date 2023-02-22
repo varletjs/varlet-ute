@@ -7,18 +7,17 @@ import {
   Option as VarOption,
   Snackbar,
 } from '@varlet/ui'
+import dark from '../../../theme/dark'
+import { ref } from 'vue'
+import { AppType, watchLang, watchDarkMode } from '@varlet/cli/client'
+import { pack, use } from './locale'
+import { useSync } from '../../utils/sync'
 import '@varlet/ui/es/tooltip/style/index'
 import '@varlet/ui/es/space/style/index'
 import '@varlet/ui/es/button/style/index'
 import '@varlet/ui/es/select/style/index'
 import '@varlet/ui/es/option/style/index'
 import '@varlet/ui/es/snackbar/style/index'
-import dark from '../../../theme/dark'
-import { ref } from 'vue'
-import AppType from '@varlet/cli/site/mobile/components/AppType'
-import { pack, use } from './locale'
-import { watchLang, watchDarkMode } from '@varlet/cli/site/utils'
-import { useSync } from '../../utils/sync'
 
 const trigger = ref('click')
 const placementValue = ref('top')

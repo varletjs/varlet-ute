@@ -1,13 +1,13 @@
 <script setup>
 import { IndexAnchor as VarIndexAnchor, IndexBar as VarIndexBar, Cell as VarCell } from '@varlet/ui'
-import '@varlet/ui/es/index-bar/style/index'
-import '@varlet/ui/es/index-anchor/style/index'
-import '@varlet/ui/es/cell/style/index'
 import dark from '../../../theme/dark'
 import { ref, onMounted } from 'vue'
 import { pack, use } from './locale'
-import { watchLang, watchDarkMode } from '@varlet/cli/site/utils'
+import { watchLang, watchDarkMode } from '@varlet/cli/client'
 import { useSync } from '../../utils/sync'
+import '@varlet/ui/es/index-bar/style/index'
+import '@varlet/ui/es/index-anchor/style/index'
+import '@varlet/ui/es/cell/style/index'
 
 const list = ref([])
 const bgColor = ref('#e7edf7')

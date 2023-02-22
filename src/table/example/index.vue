@@ -1,12 +1,11 @@
 <script setup>
+import { ref } from 'vue'
 import { Table as VarTable, Pagination as VarPagination } from '@varlet/ui'
 import { pack, use } from './locale/index'
-import AppType from '@varlet/cli/site/mobile/components/AppType'
+import { AppType, watchLang } from '@varlet/cli/client'
 import '@varlet/ui/es/table/style/index'
 import '@varlet/ui/es/pagination/style/index'
-import { watchLang } from '@varlet/cli/site/utils'
 import { useSync } from '../../utils/sync'
-import { ref } from 'vue'
 
 const gen = (current, size) => {
   return Array.from({ length: size }).map((_, index) => {

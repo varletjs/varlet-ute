@@ -1,5 +1,5 @@
 <script setup>
-import AppType from '@varlet/cli/site/mobile/components/AppType'
+import { AppType, watchLang, watchDarkMode } from '@varlet/cli/client'
 import { Button as VarButton, Divider as VarDivider, Icon as VarIcon, Card as VarCard } from '@varlet/ui'
 import '@varlet/ui/es/button/style/index'
 import '@varlet/ui/es/divider/style/index'
@@ -7,7 +7,6 @@ import '@varlet/ui/es/icon/style/index'
 import '@varlet/ui/es/card/style/index'
 import dark from '../../../theme/dark'
 import { pack, use } from './locale'
-import { watchLang, watchDarkMode } from '@varlet/cli/site/utils'
 import { useSync } from '../../utils/sync'
 import { ref } from 'vue'
 

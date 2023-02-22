@@ -1,5 +1,6 @@
 <script setup>
-import AppType from '@varlet/cli/site/mobile/components/AppType'
+import { computed, reactive, ref, toRefs } from 'vue'
+import { AppType, watchLang, watchDarkMode } from '@varlet/cli/client'
 import {
   Tabs as VarTabs,
   Tab as VarTab,
@@ -9,11 +10,9 @@ import {
 } from '@varlet/ui'
 import dark from '../../../theme/dark'
 import { use, pack } from './locale/index'
-import { watchLang, watchDarkMode } from '@varlet/cli/site/utils'
-import { computed, reactive, ref, toRefs } from 'vue'
+import { useSync } from '../../utils/sync'
 import '@varlet/ui/es/tabs/style/index'
 import '@varlet/ui/es/tab/style/index'
-import { useSync } from '../../utils/sync'
 
 const actives = reactive({
   active: 0,

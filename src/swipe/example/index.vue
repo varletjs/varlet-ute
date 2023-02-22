@@ -1,10 +1,9 @@
 <script setup>
 import { Swipe as VarSwipe, SwipeItem as VarSwipeItem } from '@varlet/ui'
 import { pack, use } from './locale/index'
-import AppType from '@varlet/cli/site/mobile/components/AppType'
+import { AppType, watchLang } from '@varlet/cli/client'
 import '@varlet/ui/es/swipe/style/index'
 import '@varlet/ui/es/swipe-item/style/index'
-import { watchLang } from '@varlet/cli/site/utils'
 import { useSync } from '../../utils/sync'
 
 watchLang(use)

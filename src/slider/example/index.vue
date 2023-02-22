@@ -1,13 +1,12 @@
 <script setup>
 import { reactive } from 'vue'
-import AppType from '@varlet/cli/site/mobile/components/AppType'
+import { AppType, watchLang, watchDarkMode } from '@varlet/cli/client'
 import { Slider as VarSlider } from '@varlet/ui'
-import '@varlet/ui/es/slider/style/index'
-import '@varlet/ui/es/space/style/index'
 import dark from '../../../theme/dark'
 import { pack, use } from './locale'
-import { watchLang, watchDarkMode } from '@varlet/cli/site/utils'
 import { useSync } from '../../utils/sync'
+import '@varlet/ui/es/slider/style/index'
+import '@varlet/ui/es/space/style/index'
 
 const values = reactive({
   value: 3,

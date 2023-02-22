@@ -1,15 +1,14 @@
 <script setup>
 import { Overlay as VarOverlay, Snackbar, Space as VarSpace, Button as VarButton } from '@varlet/ui'
-import AppType from '@varlet/cli/site/mobile/components/AppType'
+import { AppType, watchLang, watchDarkMode } from '@varlet/cli/client'
+import dark from '../../../theme/dark'
+import { reactive, toRefs } from 'vue'
+import { useSync } from '../../utils/sync'
+import { pack, use } from './locale'
 import '@varlet/ui/es/button/style/index'
 import '@varlet/ui/es/space/style/index'
 import '@varlet/ui/es/snackbar/style/index'
 import '@varlet/ui/es/overlay/style/index'
-import dark from '../../../theme/dark'
-import { watchLang, watchDarkMode } from '@varlet/cli/site/utils'
-import { reactive, toRefs } from 'vue'
-import { useSync } from '../../utils/sync'
-import { pack, use } from './locale'
 
 const values = reactive({
   baseOverlay: false,

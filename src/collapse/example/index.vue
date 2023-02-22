@@ -1,20 +1,19 @@
 <script setup>
-import AppType from '@varlet/cli/site/mobile/components/AppType'
+import { AppType, watchLang, watchDarkMode } from '@varlet/cli/client'
 import {
   Collapse as VarCollapse,
   CollapseItem as VarCollapseItem,
   Button as VarButton,
   Space as VarSpace,
 } from '@varlet/ui'
+import dark from '../../../theme/dark'
+import { reactive, ref } from 'vue'
+import { pack, use } from './locale'
+import { useSync } from '../../utils/sync'
 import '@varlet/ui/es/collapse/style/index'
 import '@varlet/ui/es/collapse-item/style/index'
 import '@varlet/ui/es/button/style/index'
 import '@varlet/ui/es/space/style/index'
-import dark from '../../../theme/dark'
-import { reactive, ref } from 'vue'
-import { pack, use } from './locale'
-import { watchLang, watchDarkMode } from '@varlet/cli/site/utils'
-import { useSync } from '../../utils/sync'
 
 const disabled = ref(false)
 

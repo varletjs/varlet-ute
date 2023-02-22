@@ -1,15 +1,14 @@
 <script setup>
 import { Result as VarResult, Space as VarSpace, Button as VarButton, Popup as VarPopup } from '@varlet/ui'
-import AppType from '@varlet/cli/site/mobile/components/AppType'
+import { AppType, watchLang, watchDarkMode } from '@varlet/cli/client'
+import dark from '../../../theme/dark'
+import { ref } from 'vue'
+import { useSync } from '../../utils/sync'
+import { pack, use } from './locale'
 import '@varlet/ui/es/button/style/index'
 import '@varlet/ui/es/space/style/index'
 import '@varlet/ui/es/popup/style/index'
 import '@varlet/ui/es/result/style/index'
-import dark from '../../../theme/dark'
-import { watchLang, watchDarkMode } from '@varlet/cli/site/utils'
-import { ref } from 'vue'
-import { useSync } from '../../utils/sync'
-import { pack, use } from './locale'
 
 const success = ref(false)
 const error = ref(false)

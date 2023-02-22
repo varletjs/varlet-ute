@@ -1,13 +1,12 @@
 <script setup>
 import { Picker, Snackbar, Space as VarSpace, Button as VarButton } from '@varlet/ui'
 import { pack, use } from './locale/index'
-import AppType from '@varlet/cli/site/mobile/components/AppType'
+import { AppType, watchLang } from '@varlet/cli/client'
 import '@varlet/ui/es/button/style/index'
 import '@varlet/ui/es/space/style/index'
 import '@varlet/ui/es/snackbar/style/index'
 import '@varlet/ui/es/picker/style/index'
 import area from '@varlet/ui/json/area.json'
-import { watchLang } from '@varlet/cli/site/utils'
 import { useSync } from '../../utils/sync'
 import { ref } from 'vue'
 

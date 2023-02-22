@@ -1,12 +1,11 @@
 <script setup>
-import AppType from '@varlet/cli/site/mobile/components/AppType'
+import { AppType, watchLang, watchDarkMode } from '@varlet/cli/client'
 import { Icon as VarIcon, Select as VarSelect, Option as VarOption } from '@varlet/ui'
 import '@varlet/ui/es/icon/style/index'
 import '@varlet/ui/es/select/style/index'
 import '@varlet/ui/es/option/style/index'
 import dark from '../../../theme/dark'
 import { reactive, toRefs } from 'vue'
-import { watchLang, watchDarkMode } from '@varlet/cli/site/utils'
 import { use, pack } from './locale'
 import { useSync } from '../../utils/sync'
 

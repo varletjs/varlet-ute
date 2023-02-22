@@ -1,5 +1,5 @@
 <script setup>
-import { watchLang } from '@varlet/cli/site/utils'
+import { watchLang } from '@varlet/cli/client'
 import { use } from './locale'
 import Editor from '../../../components/editor/index.vue'
 
@@ -9,4 +9,3 @@ watchLang(use, 'pc')
 <template>
   <editor component-name="icon" />
 </template>
-  

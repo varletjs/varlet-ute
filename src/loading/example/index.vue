@@ -1,17 +1,14 @@
 <script setup>
 import { ref } from 'vue'
-import AppType from '@varlet/cli/site/mobile/components/AppType'
+import { AppType, watchDarkMode, watchLang } from '@varlet/cli/client'
 import { Loading as VarLoading, Space as VarSpace, Button as VarButton, Card as VarCard } from '@varlet/ui'
-
+import { pack, use } from './locale'
+import dark from '../../../theme/dark'
+import { useSync } from '../../utils/sync'
 import '@varlet/ui/es/loading/style/index'
 import '@varlet/ui/es/space/style/index'
 import '@varlet/ui/es/button/style/index'
 import '@varlet/ui/es/card/style/index'
-
-import { pack, use } from './locale'
-import { watchDarkMode, watchLang } from '@varlet/cli/site/utils'
-import dark from '../../../theme/dark'
-import { useSync } from '../../utils/sync'
 
 const loading = ref(false)
 

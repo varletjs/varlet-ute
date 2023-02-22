@@ -4,11 +4,10 @@ import '@varlet/ui/es/action-sheet/style/index'
 import '@varlet/ui/es/snackbar/style/index'
 import '@varlet/ui/es/space/style/index'
 import '@varlet/ui/es/button/style/index'
-import AppType from '@varlet/cli/site/mobile/components/AppType'
 import dark from '../../../theme/dark'
 import { ref, reactive } from 'vue'
 import { pack, use } from './locale'
-import { watchLang, watchDarkMode } from '@varlet/cli/site/utils'
+import { watchLang, watchDarkMode, AppType } from '@varlet/cli/client'
 import { useSync } from '../../utils/sync'
 
 const VarActionSheet = ActionSheet.Component

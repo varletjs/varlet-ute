@@ -1,5 +1,5 @@
 <script setup>
-import AppType from '@varlet/cli/site/mobile/components/AppType'
+import { AppType, watchLang, watchDarkMode } from '@varlet/cli/client'
 import { Chip as VarChip, Button as VarButton, Space as VarSpace, Badge as VarBadge } from '@varlet/ui'
 import '@varlet/ui/es/button/style/index'
 import '@varlet/ui/es/chip/style/index'
@@ -8,7 +8,6 @@ import '@varlet/ui/es/badge/style/index'
 import dark from '../../../theme/dark'
 import { ref } from 'vue'
 import { pack, use } from './locale'
-import { watchLang, watchDarkMode } from '@varlet/cli/site/utils'
 import { useSync } from '../../utils/sync'
 
 const value = ref(88)

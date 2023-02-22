@@ -1,11 +1,10 @@
 <script setup>
+import { reactive } from 'vue'
 import { TimePicker as VarTimePicker } from '@varlet/ui'
 import { pack, use } from './locale/index'
-import AppType from '@varlet/cli/site/mobile/components/AppType'
+import { AppType, watchLang } from '@varlet/cli/client'
 import '@varlet/ui/es/time-picker/style/index'
-import { watchLang } from '@varlet/cli/site/utils'
 import { useSync } from '../../utils/sync'
-import { reactive } from 'vue'
 
 const dates = reactive({
   date: '11:20',

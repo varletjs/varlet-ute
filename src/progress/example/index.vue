@@ -1,12 +1,11 @@
 <script setup>
-import AppType from '@varlet/cli/site/mobile/components/AppType'
+import { AppType, watchLang, watchDarkMode } from '@varlet/cli/client'
 import { Progress as VarProgress, Space as VarSpace } from '@varlet/ui'
 import '@varlet/ui/es/progress/style/index'
 import '@varlet/ui/es/space/style/index'
 import dark from '../../../theme/dark'
 import { ref, onMounted, onUnmounted } from 'vue'
 import { pack, use } from './locale'
-import { watchLang, watchDarkMode } from '@varlet/cli/site/utils'
 import { useSync } from '../../utils/sync'
 
 const value = ref(0)

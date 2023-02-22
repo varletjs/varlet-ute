@@ -5,9 +5,8 @@ import '@varlet/ui/es/breadcrumb/style/index'
 import '@varlet/ui/es/icon/style/index'
 import '@varlet/ui/es/snackbar/style/index'
 import dark from '../../../theme/dark'
-import AppType from '@varlet/cli/site/mobile/components/AppType'
+import { AppType, watchLang, watchDarkMode } from '@varlet/cli/client'
 import { pack, use } from './locale'
-import { watchLang, watchDarkMode } from '@varlet/cli/site/utils'
 import { useSync } from '../../utils/sync'
 
 watchDarkMode(dark)

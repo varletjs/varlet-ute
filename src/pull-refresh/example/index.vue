@@ -1,11 +1,11 @@
 <script setup>
 import { PullRefresh as VarPullRefresh, Cell as VarCell } from '@varlet/ui'
-import '@varlet/ui/es/pull-refresh/style/index'
-import '@varlet/ui/es/cell/style/index'
 import dark from '../../../theme/dark'
 import { onMounted, ref, onBeforeUnmount } from 'vue'
-import { watchDarkMode } from '@varlet/cli/site/utils'
+import { watchDarkMode } from '@varlet/cli/client'
 import { useSync } from '../../utils/sync'
+import '@varlet/ui/es/pull-refresh/style/index'
+import '@varlet/ui/es/cell/style/index'
 
 const data1 = Array(10).fill('List Item')
 const data2 = Array(10).fill('This is new List Item')

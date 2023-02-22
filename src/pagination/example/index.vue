@@ -1,8 +1,7 @@
 <script setup>
-import AppType from '@varlet/cli/site/mobile/components/AppType'
+import { AppType, watchLang, watchDarkMode } from '@varlet/cli/client'
 import { Pagination as VarPagination } from '@varlet/ui'
 import dark from '../../../theme/dark'
-import { watchLang, watchDarkMode } from '@varlet/cli/site/utils'
 import { use, pack } from './locale'
 import { useSync } from '../../utils/sync'
 import '@varlet/ui/es/pagination/style/index'

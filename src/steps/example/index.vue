@@ -1,14 +1,13 @@
 <script setup>
-import AppType from '@varlet/cli/site/mobile/components/AppType'
+import { AppType, watchLang, watchDarkMode } from '@varlet/cli/client'
 import { Steps as VarSteps, Step as VarStep, Button as VarButton } from '@varlet/ui'
+import dark from '../../../theme/dark'
+import { ref } from 'vue'
+import { use, pack } from './locale'
+import { useSync } from '../../utils/sync'
 import '@varlet/ui/es/steps/style/index'
 import '@varlet/ui/es/step/style/index'
 import '@varlet/ui/es/button/style/index'
-import dark from '../../../theme/dark'
-import { ref } from 'vue'
-import { watchLang, watchDarkMode } from '@varlet/cli/site/utils'
-import { use, pack } from './locale'
-import { useSync } from '../../utils/sync'
 
 const active = ref(0)
 

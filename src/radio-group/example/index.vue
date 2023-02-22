@@ -1,14 +1,13 @@
 <script setup>
-import AppType from '@varlet/cli/site/mobile/components/AppType'
+import { AppType, watchLang, watchDarkMode } from '@varlet/cli/client'
 import { Radio as VarRadio, Icon as VarIcon, RadioGroup as VarRadioGroup } from '@varlet/ui'
-import '@varlet/ui/es/radio/style/index'
-import '@varlet/ui/es/icon/style/index'
-import '@varlet/ui/es/radio-group/style/index'
 import dark from '../../../theme/dark'
 import { reactive, toRefs } from 'vue'
 import { pack, use } from './locale'
-import { watchLang, watchDarkMode } from '@varlet/cli/site/utils'
 import { useSync } from '../../utils/sync'
+import '@varlet/ui/es/radio/style/index'
+import '@varlet/ui/es/icon/style/index'
+import '@varlet/ui/es/radio-group/style/index'
 
 const values = reactive({
   value: false,

@@ -1,15 +1,13 @@
 <script setup>
 import { ImagePreview, Button as VarButton, ActionSheet, Snackbar, Icon as VarIcon } from '@varlet/ui'
-import '@varlet/ui/es/icon/style/index'
-import '@varlet/ui/es/image-preview/style/index'
-import '@varlet/ui/es/button/style/index'
-
-import AppType from '@varlet/cli/site/mobile/components/AppType'
+import { AppType, watchDarkMode, watchLang } from '@varlet/cli/client'
 import dark from '../../../theme/dark'
 import { ref, computed } from 'vue'
 import { pack, use } from './locale'
-import { watchDarkMode, watchLang } from '@varlet/cli/site/utils'
 import { useSync } from '../../utils/sync'
+import '@varlet/ui/es/icon/style/index'
+import '@varlet/ui/es/image-preview/style/index'
+import '@varlet/ui/es/button/style/index'
 
 const VarImagePreview = ImagePreview.Component
 const VarActionSheet = ActionSheet.Component

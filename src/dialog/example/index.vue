@@ -1,15 +1,13 @@
 <script setup>
 import { Dialog, Button as VarButton, Icon as VarIcon, Snackbar, Cell as VarCell } from '@varlet/ui'
-import AppType from '@varlet/cli/site/mobile/components/AppType'
+import { AppType, watchLang, watchDarkMode } from '@varlet/cli/client'
 import dark from '../../../theme/dark'
 import { reactive, toRefs } from 'vue'
 import { pack, use } from './locale'
-import { watchLang, watchDarkMode } from '@varlet/cli/site/utils'
-
+import { useSync } from '../../utils/sync'
 import '@varlet/ui/es/icon/style/index'
 import '@varlet/ui/es/cell/style/index'
 import '@varlet/ui/es/dialog/style/index'
-import { useSync } from '../../utils/sync'
 
 watchLang(use)
 useSync()

@@ -8,16 +8,15 @@ import {
   TabItem as VarTabItem,
 } from '@varlet/ui'
 import { pack, use } from './locale/index'
-import AppType from '@varlet/cli/site/mobile/components/AppType'
+import { AppType, watchLang } from '@varlet/cli/client'
+import { useSync } from '../../utils/sync'
+import { reactive, toRefs } from 'vue'
 import '@varlet/ui/es/list/style/index'
 import '@varlet/ui/es/cell/style/index'
 import '@varlet/ui/es/tabs/style/index'
 import '@varlet/ui/es/tab/style/index'
 import '@varlet/ui/es/tabs-items/style/index'
 import '@varlet/ui/es/tab-item/style/index'
-import { watchLang } from '@varlet/cli/site/utils'
-import { useSync } from '../../utils/sync'
-import { reactive, toRefs } from 'vue'
 
 const values = reactive({
   loading: false,

@@ -1,12 +1,11 @@
 <script setup lang="ts">
-import AppType from '@varlet/cli/site/mobile/components/AppType.vue'
 import { pack, use } from './locale'
 import { Button as VarButton, Space as VarSpace, Cell as VarCell, Icon as VarIcon } from '@varlet/ui'
+import { watchLang, AppType } from '@varlet/cli/client'
+import { useSync } from '../../utils/sync'
 import '@varlet/ui/es/space/style/index'
 import '@varlet/ui/es/button/style/index'
 import '@varlet/ui/es/cell/style/index'
-import { watchLang } from '@varlet/cli/site/utils'
-import { useSync } from '../../utils/sync'
 
 watchLang(use)
 useSync()

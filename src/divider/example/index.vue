@@ -1,12 +1,11 @@
 <script setup>
-import AppType from '@varlet/cli/site/mobile/components/AppType'
+import { AppType, watchLang, watchDarkMode } from '@varlet/cli/client'
 import { Divider as VarDivider, Icon as VarIcon } from '@varlet/ui'
-import '@varlet/ui/es/divider/style/index'
-import '@varlet/ui/es/icon/style/index'
 import dark from '../../../theme/dark'
 import { pack, use } from './locale'
 import { useSync } from '../../utils/sync'
-import { watchLang, watchDarkMode } from '@varlet/cli/site/utils'
+import '@varlet/ui/es/divider/style/index'
+import '@varlet/ui/es/icon/style/index'
 
 watchLang(use)
 watchDarkMode(dark)

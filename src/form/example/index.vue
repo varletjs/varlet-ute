@@ -16,9 +16,8 @@ import {
   Counter as VarCounter,
   Rate as VarRate,
 } from '@varlet/ui'
-import AppType from '@varlet/cli/site/mobile/components/AppType.vue'
 import { reactive, ref } from 'vue'
-import { watchLang } from '@varlet/cli/site/utils'
+import { watchLang, AppType } from '@varlet/cli/client'
 import { use, pack } from './locale'
 import { useSync } from '../../utils/sync'
 import '@varlet/ui/es/button/style/index'

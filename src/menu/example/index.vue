@@ -8,17 +8,16 @@ import {
   Cell as VarCell,
   Snackbar,
 } from '@varlet/ui'
-import AppType from '@varlet/cli/site/mobile/components/AppType'
+import { AppType, watchLang } from '@varlet/cli/client'
+import { pack, use } from './locale'
+import { useSync } from '../../utils/sync'
+import { reactive, toRefs, ref } from 'vue'
 import '@varlet/ui/es/menu/style/index'
 import '@varlet/ui/es/space/style/index'
 import '@varlet/ui/es/button/style/index'
 import '@varlet/ui/es/option/style/index'
 import '@varlet/ui/es/cell/style/index'
 import '@varlet/ui/es/snackbar/style/index'
-import { pack, use } from './locale'
-import { watchLang } from '@varlet/cli/site/utils'
-import { useSync } from '../../utils/sync'
-import { reactive, toRefs, ref, onMounted } from 'vue'
 
 const values = reactive({
   top: false,

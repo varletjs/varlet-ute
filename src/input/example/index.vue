@@ -1,9 +1,8 @@
 <script setup>
-import AppType from '@varlet/cli/site/mobile/components/AppType'
+import { AppType, watchLang } from '@varlet/cli/client'
 import { Input as VarInput, Icon as VarIcon } from '@varlet/ui'
 import { reactive, toRefs } from 'vue'
 import { use, pack } from './locale'
-import { watchLang } from '@varlet/cli/site/utils'
 import { useSync } from '../../utils/sync'
 import '@varlet/ui/es/input/style/index'
 import '@varlet/ui/es/icon/style/index'

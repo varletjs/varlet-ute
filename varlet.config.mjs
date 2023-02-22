@@ -1,4 +1,6 @@
-module.exports = {
+import { defineConfig } from '@varlet/cli'
+
+export default defineConfig({
   title: 'VARLET UTE',
   logo: './logo.svg',
   useMobile: true,
@@ -558,4 +560,4 @@ module.exports = {
   highlight: {
     style: null,
   },
-}
+})

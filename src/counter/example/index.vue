@@ -1,11 +1,10 @@
 <script setup>
+import { reactive } from 'vue'
 import { Counter as VarCounter } from '@varlet/ui'
 import { pack, use } from './locale/index'
-import AppType from '@varlet/cli/site/mobile/components/AppType'
-import '@varlet/ui/es/counter/style/index'
-import { watchLang } from '@varlet/cli/site/utils'
+import { AppType, watchLang } from '@varlet/cli/client'
 import { useSync } from '../../utils/sync'
-import { reactive } from 'vue'
+import '@varlet/ui/es/counter/style/index'
 
 const values = reactive({
   value: 0,

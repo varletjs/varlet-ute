@@ -1,14 +1,13 @@
 <script setup>
 import { LoadingBar, Button as VarButton, Space as VarSpace } from '@varlet/ui'
+import dark from '../../../theme/dark'
+import { AppType, watchLang, watchDarkMode } from '@varlet/cli/client'
+import { ref } from 'vue'
+import { pack, use } from './locale'
+import { useSync } from '../../utils/sync'
 import '@varlet/ui/es/loading-bar/style/index'
 import '@varlet/ui/es/button/style/index'
 import '@varlet/ui/es/space/style/index'
-import dark from '../../../theme/dark'
-import AppType from '@varlet/cli/site/mobile/components/AppType'
-import { ref } from 'vue'
-import { pack, use } from './locale'
-import { watchLang, watchDarkMode } from '@varlet/cli/site/utils'
-import { useSync } from '../../utils/sync'
 
 const hasCustomStyle = ref(false)
 

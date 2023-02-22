@@ -1,4 +1,5 @@
 <script setup>
+import { reactive } from 'vue'
 import {
   Uploader as VarUploader,
   Button as VarButton,
@@ -7,18 +8,16 @@ import {
   Dialog,
   Snackbar,
 } from '@varlet/ui'
-import AppType from '@varlet/cli/site/mobile/components/AppType'
+import { AppType, watchLang, watchDarkMode } from '@varlet/cli/client'
+import dark from '../../../theme/dark'
+import { use, pack } from './locale'
+import { useSync } from '../../utils/sync'
 import '@varlet/ui/es/uploader/style/index'
 import '@varlet/ui/es/button/style/index'
 import '@varlet/ui/es/icon/style/index'
 import '@varlet/ui/es/space/style/index'
 import '@varlet/ui/es/dialog/style/index'
 import '@varlet/ui/es/snackbar/style/index'
-import dark from '../../../theme/dark'
-import { reactive } from 'vue'
-import { watchLang, watchDarkMode } from '@varlet/cli/site/utils'
-import { use, pack } from './locale'
-import { useSync } from '../../utils/sync'
 
 const values = reactive({
   files: [],

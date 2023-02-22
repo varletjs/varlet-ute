@@ -1,11 +1,10 @@
 <script setup>
+import { reactive } from 'vue'
 import { DatePicker as VarDatePicker } from '@varlet/ui'
 import { pack, use } from './locale/index'
-import AppType from '@varlet/cli/site/mobile/components/AppType'
-import '@varlet/ui/es/date-picker/style/index'
-import { watchLang } from '@varlet/cli/site/utils'
+import { AppType, watchLang } from '@varlet/cli/client'
 import { useSync } from '../../utils/sync'
-import { reactive } from 'vue'
+import '@varlet/ui/es/date-picker/style/index'
 
 const dates = reactive({
   date: '2021-04',

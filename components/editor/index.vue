@@ -1,6 +1,6 @@
 <script lang="ts" setup>
 import { computed, defineProps, onMounted, onUnmounted, Ref, ref, watch } from 'vue'
-import { watchLang, watchTheme } from '@varlet/cli/site/utils'
+import { watchLang, watchTheme } from '@varlet/cli/client'
 import {
   Input as VarInput,
   StyleProvider,

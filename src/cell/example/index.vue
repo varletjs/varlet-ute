@@ -1,10 +1,9 @@
 <script setup>
 import { Cell as VarCell, Icon as VarIcon } from '@varlet/ui'
 import { pack, use } from './locale/index'
-import AppType from '@varlet/cli/site/mobile/components/AppType'
+import { watchLang, AppType } from '@varlet/cli/client'
 import '@varlet/ui/es/icon/style/index'
 import '@varlet/ui/es/cell/style/index'
-import { watchLang } from '@varlet/cli/site/utils'
 import { useSync } from '../../utils/sync'
 
 watchLang(use)
@@ -40,5 +39,3 @@ useSync()
   <var-cell border> {{ pack.content }} </var-cell>
   <var-cell border> {{ pack.content }} </var-cell>
 </template>
-
-<style scoped></style>

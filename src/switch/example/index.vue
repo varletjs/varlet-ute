@@ -1,12 +1,11 @@
 <script setup>
+import { reactive, toRefs } from 'vue'
 import { Switch as VarSwitch, Space as VarSpace } from '@varlet/ui'
 import { pack, use } from './locale/index'
-import AppType from '@varlet/cli/site/mobile/components/AppType'
+import { AppType, watchLang } from '@varlet/cli/client'
+import { useSync } from '../../utils/sync'
 import '@varlet/ui/es/space/style/index'
 import '@varlet/ui/es/switch/style/index'
-import { watchLang } from '@varlet/cli/site/utils'
-import { useSync } from '../../utils/sync'
-import { reactive, toRefs } from 'vue'
 
 const values = reactive({
   value: true,
