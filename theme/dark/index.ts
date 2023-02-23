@@ -31,6 +31,8 @@ import menu from './menu'
 import common from './common'
 import result from './result'
 import breadcrumbs from './breadcrumbs'
+import avatar from './avatar'
+import paper from './paper'
 
 export default {
   common,
@@ -66,4 +68,6 @@ export default {
   menu,
   result,
   breadcrumbs,
+  avatar,
+  paper,
 } as Record<string, any>

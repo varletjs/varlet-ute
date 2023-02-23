@@ -1,6 +1,5 @@
 <script setup>
 import { Cell as VarCell, BackTop as VarBackTop } from '@varlet/ui'
-import { AppType } from '@varlet/cli/client'
 import '@varlet/ui/es/back-top/style/index'
 import '@varlet/ui/es/cell/style/index'
 import { useSync } from '../../utils/sync'

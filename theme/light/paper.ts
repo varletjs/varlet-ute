@@ -1,5 +1,5 @@
-const PaperTheme = {
+const paperTheme = {
   '--paper-background': '#fff',
 }
 
-export default PaperTheme
+export default paperTheme
