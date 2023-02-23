@@ -1,0 +1,1 @@
+import{ac as o,f as r,i as a}from"./vue-router.esm-bundler-0540ad65.js";import{u as t}from"./index-ccd382eb.js";import{E as c}from"./index-bee0c3f4.js";const i={setup(e){return o(t,"pc"),(s,p)=>(r(),a(c,{"component-name":"overlay"}))}};export{i as _};
