@@ -1,1 +1,0 @@
-import{ac as o,f as r,i as t}from"./vue-router.esm-bundler-9b345358.js";import{u as a}from"./index-117fda00.js";import{E as e}from"./index-f7f37f68.js";const i={setup(c){return o(a,"pc"),(s,n)=>(r(),t(e,{"component-name":"skeleton"}))}};export{i as _};

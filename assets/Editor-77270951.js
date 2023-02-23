@@ -1,0 +1,1 @@
+import{ac as o,f as a,i as r}from"./vue-router.esm-bundler-a6d65396.js";import{u as c}from"./index-8776d2d1.js";import{E as t}from"./index-5d31265f.js";const i={setup(e){return o(c,"pc"),(s,p)=>(a(),r(t,{"component-name":"collapse"}))}};export{i as _};

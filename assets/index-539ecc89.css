@@ -1,0 +1,1 @@
+:root{--paper-background: #fff}.var-paper{background:var(--paper-background);transition:background-color .25s;overflow:hidden}.var-paper--round{border-radius:50%}.var-paper--cursor{cursor:pointer}

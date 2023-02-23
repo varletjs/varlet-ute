@@ -1,1 +1,0 @@
-import{ac as o,f as r,i as a}from"./vue-router.esm-bundler-9b345358.js";import{u as c}from"./index-3ce33131.js";import{E as t}from"./index-f7f37f68.js";const _={setup(e){return o(c,"pc"),(s,n)=>(r(),a(t,{"component-name":"icon"}))}};export{_};

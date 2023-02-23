@@ -1,1 +1,0 @@
-import{_ as a,a as o,L as c}from"./index-a7264297.js";const n={title:"标题",text:"文本"},d={title:"Title",text:"Text"},{useLocale:p,use:u,add:s}=c,{add:t,use:l,pack:C,packs:N,merge:_}=p(),h=e=>{u(e),l(e)};s("zh-CN",a);s("en-US",o);t("zh-CN",n);t("en-US",d);export{C as p,h as u};

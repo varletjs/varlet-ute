@@ -1,0 +1,1 @@
+import{ac as o,f as t,i as a}from"./vue-router.esm-bundler-a6d65396.js";import{u as r}from"./index-f0581ba0.js";import{E as c}from"./index-5d31265f.js";const _={setup(e){return o(r,"pc"),(n,s)=>(t(),a(c,{"component-name":"buttonNavigation"}))}};export{_};
