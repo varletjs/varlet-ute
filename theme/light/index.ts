@@ -46,6 +46,7 @@ import result from './result'
 import breadcrumbs from './breadcrumbs'
 import tooltip from './tooltip'
 import loadingBar from './loading-bar'
+import paper from './paper'
 
 export default {
   common,
@@ -96,4 +97,5 @@ export default {
   breadcrumbs,
   tooltip,
   loadingBar,
+  paper,
 }

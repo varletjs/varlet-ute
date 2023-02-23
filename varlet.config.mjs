@@ -188,6 +188,14 @@ export default defineConfig({
       },
       {
         text: {
+          'zh-CN': 'Paper 纸张',
+          'en-US': 'Paper',
+        },
+        doc: 'paper',
+        type: 2,
+      },
+      {
+        text: {
           'zh-CN': '展示组件',
           'en-US': 'Display Components',
         },
