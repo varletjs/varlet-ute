@@ -48,6 +48,7 @@ import tooltip from './tooltip'
 import loadingBar from './loading-bar'
 import paper from './paper'
 import avatar from './avatar'
+import link from './link'
 
 export default {
   common,
@@ -100,4 +101,5 @@ export default {
   loadingBar,
   paper,
   avatar,
+  link,
 }
