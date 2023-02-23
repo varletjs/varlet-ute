@@ -1,1 +1,0 @@
-import{ac as o,f as r,i as t}from"./vue-router.esm-bundler-a6d65396.js";import{u as a}from"./index-c6a08fd1.js";import{E as c}from"./index-5d31265f.js";const i={setup(s){return o(a,"pc"),(e,p)=>(r(),t(c,{"component-name":"_switch"}))}};export{i as _};

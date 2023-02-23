@@ -1,1 +1,0 @@
-import{ac as o,f as r,i as a}from"./vue-router.esm-bundler-a6d65396.js";import{u as c}from"./index-1429a4ef.js";import{E as t}from"./index-5d31265f.js";const i={setup(e){return o(c,"pc"),(s,p)=>(r(),a(t,{"component-name":"card"}))}};export{i as _};
