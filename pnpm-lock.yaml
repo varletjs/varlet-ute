@@ -8,7 +8,7 @@ specifiers:
   '@varlet/shared': ^2.8.3
   '@varlet/stylelint-config': ^2.8.3
   '@varlet/touch-emulator': ^2.8.4-alpha.1676992435486
-  '@varlet/ui': ^2.8.3
+  '@varlet/ui': ^2.9.2
   '@vue/test-utils': ^2.0.2
   clipboard: ^2.0.6
   eslint: ^7.30.0
@@ -26,7 +26,7 @@ specifiers:
 
 dependencies:
   '@types/file-saver': 2.0.5
-  '@varlet/ui': 2.8.3_vue@3.2.25
+  '@varlet/ui': 2.9.2_vue@3.2.25
   file-saver: 2.0.5
   jszip: 3.10.1
 
@@ -2302,20 +2302,25 @@ packages:
       - typescript
     dev: true
 
-  /@varlet/icons/2.8.3:
-    resolution: {integrity: sha512-5XFzb7lU2U+lMM9oYRRJlNkQqEAM8ucny0W7JYRh3xayvDOxygycOQO68Td5X12KJJ5e8FvttInsLdh+Gc9R6g==}
-    dev: false
-
   /@varlet/icons/2.8.4-alpha.1676992435486:
     resolution: {integrity: sha512-dpK2iT0A6vvHixZUcQGMSbWRYKyGb2inGxuihOBX4xvkHe57jnGbV3G8pne20MfhMFRHhWqRZ++j3KWxWSy3BA==}
     dev: true
 
+  /@varlet/icons/2.9.2:
+    resolution: {integrity: sha512-rixttfhTd3lJ793oXD1S86GU6YVsBNUVLXjoNPWZ5SWlulbOWCNa5kj7FyiwiXH+7gwoLFc9983nkwcj8FeB+g==}
+    dev: false
+
   /@varlet/shared/2.8.3:
     resolution: {integrity: sha512-+3Huajf5w/gT3erX+Vog8RbvDMbRckWcjlox0YTamEt/mHd73B028TWwnfvqDRIU9c5K71T8h+45rA8FVV2miA==}
+    dev: true
 
   /@varlet/shared/2.8.4-alpha.1676992435486:
     resolution: {integrity: sha512-D7B6X3FstQumdEt55pZwwXeoGgjzMHHqUFI4qMEIRaw2tv6Ey+vpvYjhPNHNbeS3dyA4/0qeQjMPZDlLi2oR2g==}
     dev: true
+
+  /@varlet/shared/2.9.2:
+    resolution: {integrity: sha512-ci6iEHpK9ez4OCON8Cv+jBP2rkMn2gczFM3qPw1/LPjw+X/AqZM8uVm/pPQlVepvR12v8LSTJNOI8eLl0RZnWA==}
+    dev: false
 
   /@varlet/stylelint-config/2.8.3_stylelint@13.13.1:
     resolution: {integrity: sha512-r1i36HMNi08Esp6o/hbvO8OhV7sDAJamZfVvPEE7tUTbDzDeDsypp0yvrwKrC9rkPL5mJ1DD1QlIrKyXWd6w5g==}
@@ -2330,16 +2335,26 @@ packages:
     resolution: {integrity: sha512-0HTv6rHaQahD/RMcm4LMX5wTs4dAeR+QJ146/AD6V3HDlM02OSFQNFPwSH/wngvwlSxZ5Tlv9yUMNLyEM4pAKw==}
     dev: true
 
-  /@varlet/ui/2.8.3_vue@3.2.25:
-    resolution: {integrity: sha512-IZmwHScbW9P4CLVdlglt0ATCm1Obk+mylw9VLUmvnv69O38EGVetRsPfp0xZcSHojBnVoW1vZJb+HpBpE7fK3A==}
+  /@varlet/ui/2.9.2_vue@3.2.25:
+    resolution: {integrity: sha512-/b+5Ia4h794yyYA6L7+xY2zLtPS+hm2h/aAzpPRdg3/W0sXYgodoYZ99LOAg06kDZCzmBRxRFkh8izuRE58OWA==}
     peerDependencies:
       vue: ^3.2.0
     dependencies:
       '@popperjs/core': 2.11.6
-      '@varlet/icons': 2.8.3
-      '@varlet/shared': 2.8.3
+      '@varlet/icons': 2.9.2
+      '@varlet/shared': 2.9.2
+      '@varlet/use': 2.9.2_vue@3.2.25
       dayjs: 1.11.5
       decimal.js: 10.4.1
+      vue: 3.2.25
+    dev: false
+
+  /@varlet/use/2.9.2_vue@3.2.25:
+    resolution: {integrity: sha512-0bpkgOHN6EfEEe84qNJ1tQUEJ3yww9egSxzM+F8Yirsvu7i+OTjT39zLHPwwpcWmeCZ6YOLN5a5FJCp+CyZOeA==}
+    peerDependencies:
+      vue: 3.2.25
+    dependencies:
+      '@varlet/shared': 2.9.2
       vue: 3.2.25
     dev: false
 

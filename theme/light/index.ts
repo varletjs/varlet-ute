@@ -49,6 +49,7 @@ import loadingBar from './loading-bar'
 import paper from './paper'
 import avatar from './avatar'
 import link from './link'
+import fab from './fab'
 
 export default {
   common,
@@ -102,4 +103,5 @@ export default {
   paper,
   avatar,
   link,
+  fab,
 }
