@@ -1,0 +1,1 @@
+import{ac as r,f as o,i as a}from"./vue-router.esm-bundler-fa266481.js";import{u as c}from"./index-703f4336.js";import{E as t}from"./index-3124d1be.js";const i={setup(e){return r(c,"pc"),(s,m)=>(o(),a(t,{"component-name":"breadcrumbs"}))}};export{i as _};

@@ -1,0 +1,1 @@
+import{ac as o,f as c,i as r}from"./vue-router.esm-bundler-fa266481.js";import{u as a}from"./index-5e4cc745.js";import{E as t}from"./index-3124d1be.js";const i={setup(e){return o(a,"pc"),(s,p)=>(c(),r(t,{"component-name":"checkbox"}))}};export{i as _};

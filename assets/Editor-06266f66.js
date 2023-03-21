@@ -1,0 +1,1 @@
+import{ac as o,f as r,i as a}from"./vue-router.esm-bundler-fa266481.js";import{u as s}from"./index-fc8cb4bf.js";import{E as t}from"./index-3124d1be.js";const i={setup(c){return o(s,"pc"),(e,p)=>(r(),a(t,{"component-name":"progress"}))}};export{i as _};

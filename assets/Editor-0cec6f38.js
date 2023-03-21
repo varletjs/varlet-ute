@@ -1,0 +1,1 @@
+import{ac as o,f as a,i as r}from"./vue-router.esm-bundler-fa266481.js";import{u as t}from"./index-9c37fbfb.js";import{E as c}from"./index-3124d1be.js";const _={setup(e){return o(t,"pc"),(s,p)=>(a(),r(c,{"component-name":"dialog"}))}};export{_};

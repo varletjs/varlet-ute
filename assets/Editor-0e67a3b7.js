@@ -1,1 +1,0 @@
-import{ac as o,f as r,i as a}from"./vue-router.esm-bundler-0540ad65.js";import{u as t}from"./index-a9089f1f.js";import{E as c}from"./index-bee0c3f4.js";const _={setup(e){return o(t,"pc"),(s,p)=>(r(),a(c,{"component-name":"slider"}))}};export{_};

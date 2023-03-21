@@ -1,1 +1,0 @@
-import{ac as o,f as t,i as a}from"./vue-router.esm-bundler-0540ad65.js";import{u as r}from"./index-ad32d110.js";import{E as c}from"./index-bee0c3f4.js";const _={setup(e){return o(r,"pc"),(s,n)=>(t(),a(c,{"component-name":"actionSheet"}))}};export{_};

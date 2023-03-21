@@ -1,0 +1,1 @@
+import{ac as o,f as r,i as a}from"./vue-router.esm-bundler-fa266481.js";import{u as e}from"./index-bf76182c.js";import{E as t}from"./index-3124d1be.js";const _={setup(c){return o(e,"pc"),(s,m)=>(r(),a(t,{"component-name":"imagePreview"}))}};export{_};
