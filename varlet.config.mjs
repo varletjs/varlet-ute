@@ -243,6 +243,14 @@ export default defineConfig({
       },
       {
         text: {
+          'zh-CN': 'Space 间隔',
+          'en-US': 'Space',
+        },
+        doc: 'space',
+        type: 2,
+      },
+      {
+        text: {
           'zh-CN': 'Progress 进度条',
           'en-US': 'Progress',
         },

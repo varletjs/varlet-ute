@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import { computed, defineProps, onMounted, onUnmounted, Ref, ref, watch } from 'vue'
+import { computed, onMounted, onUnmounted, Ref, ref, watch } from 'vue'
 import { watchLang, watchTheme } from '@varlet/cli/client'
 import {
   Input as VarInput,
@@ -115,14 +115,12 @@ onUnmounted(() => {
   window.addEventListener('message', handleMessage)
 })
 
-const editorItems = computed(() => {
-  return Object.keys(model.value).map((key) => {
-    return {
-      key,
-      inputVisible: ref(false),
-    }
-  })
-})
+const editorItems = computed(() =>
+  Object.keys(model.value).map((key) => ({
+    key,
+    inputVisible: ref(false),
+  }))
+)
 
 const clear = () => {
   const { patch } = getPatch()
@@ -206,10 +204,15 @@ const handleInput = (model: any, key: { key: string; inputVisible: any }) => {
 
 <template>
   <div class="editor" ref="body">
-    <div v-for="key in editorItems" :key="key">
-      <var-input class="editor__input" :placeholder="key.key" v-model="model[key.key]" @input="handleInput(model, key)">
-        <template v-if="key.inputVisible.value" #append-icon>
-          <var-icon name="refresh" @click="handleRefresh(model, key)" />
+    <div v-for="item in editorItems" :key="item.key">
+      <var-input
+        class="editor__input"
+        :placeholder="item.key"
+        v-model="model[item.key]"
+        @input="handleInput(model, item)"
+      >
+        <template v-if="item.inputVisible.value" #append-icon>
+          <var-icon name="refresh" @click="handleRefresh(model, item)" />
         </template>
       </var-input>
     </div>
