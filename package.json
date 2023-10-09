@@ -23,18 +23,19 @@
     "create": "varlet-cli create"
   },
   "dependencies": {
-    "@varlet/ui": "^2.9.2",
     "@types/file-saver": "^2.0.5",
+    "@varlet/ui": "^2.17.1",
+    "@varlet/use": "^2.17.1",
     "file-saver": "^2.0.5",
     "jszip": "^3.10.1"
   },
   "devDependencies": {
-    "@varlet/cli": "^2.8.4-alpha.1676992435486",
-    "@varlet/eslint-config": "^2.8.3",
-    "@varlet/icons": "^2.8.4-alpha.1676992435486",
-    "@varlet/shared": "^2.8.3",
-    "@varlet/stylelint-config": "^2.8.3",
-    "@varlet/touch-emulator": "^2.8.4-alpha.1676992435486",
+    "@varlet/cli": "^2.17.1",
+    "@varlet/eslint-config": "^2.17.1",
+    "@varlet/icons": "^2.17.1",
+    "@varlet/shared": "^2.17.1",
+    "@varlet/stylelint-config": "^2.11.8",
+    "@varlet/touch-emulator": "^2.17.1",
     "@vue/test-utils": "^2.0.2",
     "clipboard": "^2.0.6",
     "eslint": "^7.30.0",
@@ -82,8 +83,8 @@
     "Chrome >= 54",
     "iOS >= 10"
   ],
-  "packageManager": "pnpm@7.9.0",
+  "packageManager": "pnpm@8.7.5",
   "engines": {
-    "pnpm": ">=7.9"
+    "pnpm": ">=8.0"
   }
 }
