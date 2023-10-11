@@ -472,6 +472,14 @@ export default defineConfig({
       },
       {
         text: {
+          'zh-CN': 'Countdown 倒计时',
+          'en-US': 'Countdown',
+        },
+        doc: 'countdown',
+        type: 2,
+      },
+      {
+        text: {
           'zh-CN': 'Picker 多列选择器',
           'en-US': 'Picker',
         },
