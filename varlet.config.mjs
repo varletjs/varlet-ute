@@ -243,6 +243,14 @@ export default defineConfig({
       },
       {
         text: {
+          'zh-CN': 'Space 间隔',
+          'en-US': 'Space',
+        },
+        doc: 'space',
+        type: 2,
+      },
+      {
+        text: {
           'zh-CN': 'Progress 进度条',
           'en-US': 'Progress',
         },
@@ -460,6 +468,14 @@ export default defineConfig({
           'en-US': 'LoadingBar',
         },
         doc: 'loading-bar',
+        type: 2,
+      },
+      {
+        text: {
+          'zh-CN': 'Countdown 倒计时',
+          'en-US': 'Countdown',
+        },
+        doc: 'countdown',
         type: 2,
       },
       {

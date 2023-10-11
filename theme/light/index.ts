@@ -50,6 +50,8 @@ import paper from './paper'
 import avatar from './avatar'
 import link from './link'
 import fab from './fab'
+import space from './space'
+import countdown from './countdown'
 
 export default {
   common,
@@ -104,4 +106,6 @@ export default {
   avatar,
   link,
   fab,
+  space,
+  countdown,
 }
